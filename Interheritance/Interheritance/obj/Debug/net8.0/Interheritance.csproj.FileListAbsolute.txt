@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\bin\Debug\net8.0\Interheritance.exe
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\bin\Debug\net8.0\Interheritance.deps.json
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\bin\Debug\net8.0\Interheritance.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\bin\Debug\net8.0\Interheritance.dll
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\bin\Debug\net8.0\Interheritance.pdb
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.dll
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\refint\Interheritance.dll
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.pdb
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\Interheritance.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Interheritance\Interheritance\obj\Debug\net8.0\ref\Interheritance.dll

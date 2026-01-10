@@ -5,6 +5,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\overiding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\overiding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\hire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\hire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\multi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\multi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|d:\\study\\mayank_dhakate_100427\\interheritance\\interheritance\\basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE2AB1F-4AFF-476A-B5DC-90F47E2599A5}|Interheritance\\Interheritance.csproj|solutionrelative:interheritance\\basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "D.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\D.cs",
+              "RelativeDocumentMoniker": "Interheritance\\D.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\D.cs",
+              "RelativeToolTip": "Interheritance\\D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T08:26:00.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Overiding.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Overiding.cs",
+              "RelativeDocumentMoniker": "Interheritance\\Overiding.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Overiding.cs",
+              "RelativeToolTip": "Interheritance\\Overiding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T07:43:56.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\B.cs",
+              "RelativeDocumentMoniker": "Interheritance\\B.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\B.cs",
+              "RelativeToolTip": "Interheritance\\B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T07:18:32.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "A.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\A.cs",
+              "RelativeDocumentMoniker": "Interheritance\\A.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\A.cs",
+              "RelativeToolTip": "Interheritance\\A.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:44:41.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hire.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Hire.cs",
+              "RelativeDocumentMoniker": "Interheritance\\Hire.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Hire.cs",
+              "RelativeToolTip": "Interheritance\\Hire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:30:31.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Multi.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Multi.cs",
+              "RelativeDocumentMoniker": "Interheritance\\Multi.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Multi.cs",
+              "RelativeToolTip": "Interheritance\\Multi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:07:52.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Basic.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Basic.cs",
+              "RelativeDocumentMoniker": "Interheritance\\Basic.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Basic.cs",
+              "RelativeToolTip": "Interheritance\\Basic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T05:47:41.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +147,7 @@
               "RelativeDocumentMoniker": "Interheritance\\Program.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Program.cs",
               "RelativeToolTip": "Interheritance\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T03:54:01.486Z",
               "EditorCaption": ""
