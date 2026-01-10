@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eoBrwIMjpWI=",
+  "dgSpecHash": "t2N3b/smvgw=",
   "success": true,
-  "projectFilePath": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Interheritance.csproj",
+  "projectFilePath": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Inheritance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",

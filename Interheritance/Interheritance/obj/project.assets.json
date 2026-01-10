@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Interheritance.csproj",
-      "projectName": "Interheritance",
-      "projectPath": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Interheritance.csproj",
+      "projectUniqueName": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Inheritance.csproj",
+      "projectName": "Inheritance",
+      "projectPath": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\Inheritance.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "D:\\Study\\Mayank_Dhakate_100427\\Interheritance\\Interheritance\\obj\\",
       "projectStyle": "PackageReference",
