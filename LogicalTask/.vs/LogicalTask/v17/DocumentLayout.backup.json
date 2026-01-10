@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\LogicalTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAEB061-42AF-40EC-B0A2-BA5A729F2459}|LogicalTask\\LogicalTask.csproj|d:\\study\\mayank_dhakate_100427\\logicaltask\\logicaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAEB061-42AF-40EC-B0A2-BA5A729F2459}|LogicalTask\\LogicalTask.csproj|solutionrelative:logicaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAEB061-42AF-40EC-B0A2-BA5A729F2459}|LogicalTask\\LogicalTask.csproj|d:\\study\\mayank_dhakate_100427\\logicaltask\\logicaltask\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAEB061-42AF-40EC-B0A2-BA5A729F2459}|LogicalTask\\LogicalTask.csproj|solutionrelative:logicaltask\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\LogicalTask\\LogicalTask\\task.cs",
+              "RelativeDocumentMoniker": "LogicalTask\\task.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\LogicalTask\\LogicalTask\\task.cs",
+              "RelativeToolTip": "LogicalTask\\task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T04:22:00.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\LogicalTask\\LogicalTask\\Program.cs",
+              "RelativeDocumentMoniker": "LogicalTask\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\LogicalTask\\LogicalTask\\Program.cs",
+              "RelativeToolTip": "LogicalTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T04:20:24.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

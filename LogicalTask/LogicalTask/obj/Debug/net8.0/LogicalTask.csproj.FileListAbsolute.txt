@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\bin\Debug\net8.0\LogicalTask.exe
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\bin\Debug\net8.0\LogicalTask.deps.json
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\bin\Debug\net8.0\LogicalTask.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\bin\Debug\net8.0\LogicalTask.dll
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\bin\Debug\net8.0\LogicalTask.pdb
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.dll
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\refint\LogicalTask.dll
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.pdb
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\LogicalTask.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\LogicalTask\LogicalTask\obj\Debug\net8.0\ref\LogicalTask.dll
