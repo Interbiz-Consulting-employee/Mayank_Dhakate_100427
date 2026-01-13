@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\bin\Debug\net8.0\ArrayPractise.exe
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\bin\Debug\net8.0\ArrayPractise.deps.json
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\bin\Debug\net8.0\ArrayPractise.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\bin\Debug\net8.0\ArrayPractise.dll
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\bin\Debug\net8.0\ArrayPractise.pdb
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.dll
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\refint\ArrayPractise.dll
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.pdb
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ArrayPractise.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\ArrayPractise\ArrayPractise\obj\Debug\net8.0\ref\ArrayPractise.dll

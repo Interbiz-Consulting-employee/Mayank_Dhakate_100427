@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\bin\Debug\net8.0\BaseMessage.exe
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\bin\Debug\net8.0\BaseMessage.deps.json
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\bin\Debug\net8.0\BaseMessage.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\bin\Debug\net8.0\BaseMessage.dll
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\bin\Debug\net8.0\BaseMessage.pdb
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.dll
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\refint\BaseMessage.dll
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.pdb
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\BaseMessage.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\BaseMessage\BaseMessage\obj\Debug\net8.0\ref\BaseMessage.dll

@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\bin\Debug\net8.0\Exceptionhandling.exe
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\bin\Debug\net8.0\Exceptionhandling.deps.json
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\bin\Debug\net8.0\Exceptionhandling.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\bin\Debug\net8.0\Exceptionhandling.dll
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\bin\Debug\net8.0\Exceptionhandling.pdb
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.dll
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\refint\Exceptionhandling.dll
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.pdb
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\Exceptionhandling.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Exceptionhandling\Exceptionhandling\obj\Debug\net8.0\ref\Exceptionhandling.dll

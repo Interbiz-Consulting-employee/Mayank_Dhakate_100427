@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\bin\Debug\net8.0\CustomException.exe
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\bin\Debug\net8.0\CustomException.deps.json
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\bin\Debug\net8.0\CustomException.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\bin\Debug\net8.0\CustomException.dll
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\bin\Debug\net8.0\CustomException.pdb
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.dll
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\refint\CustomException.dll
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.pdb
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\CustomException.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\CustomException\CustomException\obj\Debug\net8.0\ref\CustomException.dll
