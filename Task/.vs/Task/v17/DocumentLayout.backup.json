@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|d:\\study\\mayank_dhakate_100427\\task\\task\\father.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|solutionrelative:task\\father.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|d:\\study\\mayank_dhakate_100427\\task\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|d:\\study\\mayank_dhakate_100427\\task\\task\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|solutionrelative:task\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|d:\\study\\mayank_dhakate_100427\\task\\task\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254223E8-B415-430B-97BE-11D8DD28CD41}|Task\\Task.csproj|solutionrelative:task\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Itest.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Itest.cs",
+              "RelativeDocumentMoniker": "Task\\Itest.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Itest.cs",
+              "RelativeToolTip": "Task\\Itest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:42:11.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Parent.cs",
+              "RelativeDocumentMoniker": "Task\\Parent.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Parent.cs",
+              "RelativeToolTip": "Task\\Parent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:38:19.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Father.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Father.cs",
+              "RelativeDocumentMoniker": "Task\\Father.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Father.cs",
+              "RelativeToolTip": "Task\\Father.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:36:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T03:50:08.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
