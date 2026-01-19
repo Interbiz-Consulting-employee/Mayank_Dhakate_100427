@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\property\property\bin\Debug\net8.0\property.exe
+D:\Study\Mayank_Dhakate_100427\property\property\bin\Debug\net8.0\property.deps.json
+D:\Study\Mayank_Dhakate_100427\property\property\bin\Debug\net8.0\property.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\property\property\bin\Debug\net8.0\property.dll
+D:\Study\Mayank_Dhakate_100427\property\property\bin\Debug\net8.0\property.pdb
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.dll
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\refint\property.dll
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.pdb
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\property.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\property\property\obj\Debug\net8.0\ref\property.dll

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\property\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|d:\\study\\mayank_dhakate_100427\\property\\property\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|solutionrelative:property\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|d:\\study\\mayank_dhakate_100427\\property\\property\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|solutionrelative:property\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|d:\\study\\mayank_dhakate_100427\\property\\property\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|solutionrelative:property\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|d:\\study\\mayank_dhakate_100427\\property\\property\\p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF702C0E-07B4-4E79-843B-5BBA9DB20639}|property\\property.csproj|solutionrelative:property\\p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "A.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\A.cs",
+              "RelativeDocumentMoniker": "property\\A.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\A.cs",
+              "RelativeToolTip": "property\\A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T04:20:57.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Balance.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\Balance.cs",
+              "RelativeDocumentMoniker": "property\\Balance.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\Balance.cs",
+              "RelativeToolTip": "property\\Balance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T04:04:01.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "P.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\P.cs",
+              "RelativeDocumentMoniker": "property\\P.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\P.cs",
+              "RelativeToolTip": "property\\P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T03:57:38.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\Program.cs",
+              "RelativeDocumentMoniker": "property\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\property\\property\\Program.cs",
+              "RelativeToolTip": "property\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T03:57:16.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

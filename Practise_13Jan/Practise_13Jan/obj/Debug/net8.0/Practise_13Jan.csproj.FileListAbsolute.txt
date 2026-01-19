@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\bin\Debug\net8.0\Practise_13Jan.exe
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\bin\Debug\net8.0\Practise_13Jan.deps.json
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\bin\Debug\net8.0\Practise_13Jan.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\bin\Debug\net8.0\Practise_13Jan.dll
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\bin\Debug\net8.0\Practise_13Jan.pdb
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.dll
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\refint\Practise_13Jan.dll
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.pdb
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\Practise_13Jan.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Practise_13Jan\Practise_13Jan\obj\Debug\net8.0\ref\Practise_13Jan.dll
