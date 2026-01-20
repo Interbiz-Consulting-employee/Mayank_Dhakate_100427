@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\bin\Debug\net8.0\Multi_cast_delegate.exe
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\bin\Debug\net8.0\Multi_cast_delegate.deps.json
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\bin\Debug\net8.0\Multi_cast_delegate.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\bin\Debug\net8.0\Multi_cast_delegate.dll
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\bin\Debug\net8.0\Multi_cast_delegate.pdb
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.dll
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\refint\Multi_cast_delegate.dll
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.pdb
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\Multi_cast_delegate.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Multi_cast_delegate\Multi_cast_delegate\obj\Debug\net8.0\ref\Multi_cast_delegate.dll

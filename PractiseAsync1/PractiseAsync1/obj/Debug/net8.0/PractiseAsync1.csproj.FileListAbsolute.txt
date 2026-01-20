@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\bin\Debug\net8.0\PractiseAsync1.exe
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\bin\Debug\net8.0\PractiseAsync1.deps.json
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\bin\Debug\net8.0\PractiseAsync1.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\bin\Debug\net8.0\PractiseAsync1.dll
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\bin\Debug\net8.0\PractiseAsync1.pdb
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.dll
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\refint\PractiseAsync1.dll
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.pdb
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\PractiseAsync1.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\PractiseAsync1\PractiseAsync1\obj\Debug\net8.0\ref\PractiseAsync1.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Callback using_Anonymus/1.0.0": {
+        "runtime": {
+          "Callback using_Anonymus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Callback using_Anonymus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

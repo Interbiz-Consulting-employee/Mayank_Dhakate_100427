@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\ExampleDelegate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69FB2ACD-6AC0-4609-AE4B-D3A8FAA97353}|ExampleDelegate\\ExampleDelegate.csproj|d:\\study\\mayank_dhakate_100427\\exampledelegate\\exampledelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FB2ACD-6AC0-4609-AE4B-D3A8FAA97353}|ExampleDelegate\\ExampleDelegate.csproj|solutionrelative:exampledelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\ExampleDelegate\\ExampleDelegate\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleDelegate\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\ExampleDelegate\\ExampleDelegate\\Program.cs",
+              "RelativeToolTip": "ExampleDelegate\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:41:15.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

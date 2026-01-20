@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\bin\Debug\net8.0\Anonymus_Method.exe
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\bin\Debug\net8.0\Anonymus_Method.deps.json
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\bin\Debug\net8.0\Anonymus_Method.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\bin\Debug\net8.0\Anonymus_Method.dll
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\bin\Debug\net8.0\Anonymus_Method.pdb
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.dll
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\refint\Anonymus_Method.dll
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.pdb
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\Anonymus_Method.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Anonymus_Method\Anonymus_Method\obj\Debug\net8.0\ref\Anonymus_Method.dll

@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\bin\Debug\net8.0\ExampleDelegate.exe
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\bin\Debug\net8.0\ExampleDelegate.deps.json
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\bin\Debug\net8.0\ExampleDelegate.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\bin\Debug\net8.0\ExampleDelegate.dll
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\bin\Debug\net8.0\ExampleDelegate.pdb
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.dll
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\refint\ExampleDelegate.dll
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.pdb
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ExampleDelegate.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\ExampleDelegate\ExampleDelegate\obj\Debug\net8.0\ref\ExampleDelegate.dll

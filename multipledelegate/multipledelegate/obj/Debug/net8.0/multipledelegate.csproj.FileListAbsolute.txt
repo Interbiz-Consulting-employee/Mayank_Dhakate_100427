@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.exe
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.deps.json
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.dll
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.pdb
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.dll
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\refint\multipledelegate.dll
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.pdb
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\multipledelegate\multipledelegate\obj\Debug\net8.0\ref\multipledelegate.dll
