@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\bin\Debug\net8.0\Aync_Method.exe
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\bin\Debug\net8.0\Aync_Method.deps.json
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\bin\Debug\net8.0\Aync_Method.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\bin\Debug\net8.0\Aync_Method.dll
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\bin\Debug\net8.0\Aync_Method.pdb
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.dll
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\refint\Aync_Method.dll
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.pdb
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\Aync_Method.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Aync_Method\Aync_Method\obj\Debug\net8.0\ref\Aync_Method.dll
