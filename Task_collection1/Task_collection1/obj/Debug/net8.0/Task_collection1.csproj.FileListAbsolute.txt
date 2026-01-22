@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\bin\Debug\net8.0\Task_collection1.exe
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\bin\Debug\net8.0\Task_collection1.deps.json
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\bin\Debug\net8.0\Task_collection1.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\bin\Debug\net8.0\Task_collection1.dll
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\bin\Debug\net8.0\Task_collection1.pdb
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.dll
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\refint\Task_collection1.dll
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.pdb
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\Task_collection1.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Task_collection1\Task_collection1\obj\Debug\net8.0\ref\Task_collection1.dll

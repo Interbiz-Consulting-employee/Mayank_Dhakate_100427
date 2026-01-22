@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\Tsk collection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6334ADDC-006A-402F-9854-4290E919AB25}|Tsk collection\\Tsk collection.csproj|d:\\study\\mayank_dhakate_100427\\tsk collection\\tsk collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6334ADDC-006A-402F-9854-4290E919AB25}|Tsk collection\\Tsk collection.csproj|solutionrelative:tsk collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Tsk collection\\Tsk collection\\Program.cs",
+              "RelativeDocumentMoniker": "Tsk collection\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Tsk collection\\Tsk collection\\Program.cs",
+              "RelativeToolTip": "Tsk collection\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:23:01.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
