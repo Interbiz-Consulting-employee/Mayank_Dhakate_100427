@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\Task_collection1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E7CDE69-7171-4834-ACC9-796D3D554194}|Task_collection1\\Task_collection1.csproj|d:\\study\\mayank_dhakate_100427\\task_collection1\\task_collection1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E7CDE69-7171-4834-ACC9-796D3D554194}|Task_collection1\\Task_collection1.csproj|solutionrelative:task_collection1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E7CDE69-7171-4834-ACC9-796D3D554194}|Task_collection1\\Task_collection1.csproj|d:\\study\\mayank_dhakate_100427\\task_collection1\\task_collection1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E7CDE69-7171-4834-ACC9-796D3D554194}|Task_collection1\\Task_collection1.csproj|solutionrelative:task_collection1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E414842-D7FB-49B7-A191-EE71972416E7}|Task_collection1\\Task_collection1.csproj|d:\\study\\mayank_dhakate_100427\\task_collection1\\task_collection1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E414842-D7FB-49B7-A191-EE71972416E7}|Task_collection1\\Task_collection1.csproj|solutionrelative:task_collection1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\Task_collection1\\Task_collection1\\Student.cs",
-              "RelativeDocumentMoniker": "Task_collection1\\Student.cs",
-              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task_collection1\\Task_collection1\\Student.cs",
-              "RelativeToolTip": "Task_collection1\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T04:29:49.265Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,9 +28,9 @@
               "RelativeDocumentMoniker": "Task_collection1\\Program.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Task_collection1\\Task_collection1\\Program.cs",
               "RelativeToolTip": "Task_collection1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T04:23:04.227Z",
+              "WhenOpened": "2026-01-23T03:55:40.64Z",
               "EditorCaption": ""
             }
           ]

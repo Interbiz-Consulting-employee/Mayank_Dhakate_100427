@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\bin\Debug\net8.0\swap_generic.exe
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\bin\Debug\net8.0\swap_generic.deps.json
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\bin\Debug\net8.0\swap_generic.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\bin\Debug\net8.0\swap_generic.dll
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\bin\Debug\net8.0\swap_generic.pdb
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.dll
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\refint\swap_generic.dll
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.pdb
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\swap_generic.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\swap_generic\swap_generic\obj\Debug\net8.0\ref\swap_generic.dll

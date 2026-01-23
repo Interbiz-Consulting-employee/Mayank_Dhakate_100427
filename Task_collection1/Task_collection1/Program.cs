@@ -1,26 +1,34 @@
-﻿using System.Collections;
-
-namespace Task_collection1
+﻿namespace Task_collection1
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            ArrayList list = new ArrayList();
-            list.Add(10);
-            list.Add(20);
-            list.Add(30);
-
-            int size = list.Count;
-            Console.WriteLine(size);
-            Student s1= new Student();
-            s1.Name = "Mayank";
-            s1.Id = 9;
-            list.Add(s1 );
-            Student s2 =(Student)list[3];
-            Console.WriteLine("Name"+s2.Name);
-           
-
+            List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            Console.WriteLine(list.Capacity);
+            list.AddRange(new int[] { 7, 22, 31 });
+            Console.WriteLine(list.Capacity);
+            Console.WriteLine(list.Count);
+            list.Insert(2, 5);
+            //list.Remove(22);
+            //list.RemoveAt(2);
+            //list.RemoveRange(2, 4);
+            Console.WriteLine(list.Contains(1));
+            Console.WriteLine(list.IndexOf(4));
+            List<int> found = list.FindAll(x => x > 2);
+            list.Sort();
+            
+            list.Add(6);
+            list.Sort();
+            list.Reverse();
+            foreach (int x in list)
+            {
+                Console.WriteLine("list:" + x);
+            }
         }
     }
 }

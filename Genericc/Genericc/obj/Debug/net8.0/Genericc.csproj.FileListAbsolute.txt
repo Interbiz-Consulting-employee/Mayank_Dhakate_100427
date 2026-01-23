@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\bin\Debug\net8.0\Genericc.exe
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\bin\Debug\net8.0\Genericc.deps.json
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\bin\Debug\net8.0\Genericc.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\bin\Debug\net8.0\Genericc.dll
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\bin\Debug\net8.0\Genericc.pdb
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.dll
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\refint\Genericc.dll
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.pdb
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\Genericc.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Genericc\Genericc\obj\Debug\net8.0\ref\Genericc.dll

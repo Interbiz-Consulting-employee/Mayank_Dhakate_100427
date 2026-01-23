@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\bin\Debug\net8.0\PractiseGeneric.exe
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\bin\Debug\net8.0\PractiseGeneric.deps.json
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\bin\Debug\net8.0\PractiseGeneric.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\bin\Debug\net8.0\PractiseGeneric.dll
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\bin\Debug\net8.0\PractiseGeneric.pdb
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.dll
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\refint\PractiseGeneric.dll
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.pdb
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\PractiseGeneric.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\PractiseGeneric\PractiseGeneric\obj\Debug\net8.0\ref\PractiseGeneric.dll

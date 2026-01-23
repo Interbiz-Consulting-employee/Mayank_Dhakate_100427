@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task_collection1
 {
-    public  class Student
+    public class Student
     {
         public int Id;
         public string Name;
