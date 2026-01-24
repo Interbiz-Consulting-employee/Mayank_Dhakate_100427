@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\bin\Debug\net8.0\Lambdatouple.exe
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\bin\Debug\net8.0\Lambdatouple.deps.json
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\bin\Debug\net8.0\Lambdatouple.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\bin\Debug\net8.0\Lambdatouple.dll
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\bin\Debug\net8.0\Lambdatouple.pdb
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.dll
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\refint\Lambdatouple.dll
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.pdb
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\Lambdatouple.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Lambdatouple\Lambdatouple\obj\Debug\net8.0\ref\Lambdatouple.dll

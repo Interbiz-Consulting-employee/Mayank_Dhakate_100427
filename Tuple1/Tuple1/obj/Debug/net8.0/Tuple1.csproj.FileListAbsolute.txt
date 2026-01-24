@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\bin\Debug\net8.0\Tuple1.exe
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\bin\Debug\net8.0\Tuple1.deps.json
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\bin\Debug\net8.0\Tuple1.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\bin\Debug\net8.0\Tuple1.dll
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\bin\Debug\net8.0\Tuple1.pdb
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.dll
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\refint\Tuple1.dll
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.pdb
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\Tuple1.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Tuple1\Tuple1\obj\Debug\net8.0\ref\Tuple1.dll

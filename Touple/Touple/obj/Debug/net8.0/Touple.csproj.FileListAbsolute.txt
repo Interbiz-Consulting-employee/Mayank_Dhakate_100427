@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\bin\Debug\net8.0\Touple.exe
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\bin\Debug\net8.0\Touple.deps.json
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\bin\Debug\net8.0\Touple.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\bin\Debug\net8.0\Touple.dll
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\bin\Debug\net8.0\Touple.pdb
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.dll
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\refint\Touple.dll
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.pdb
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\Touple.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Touple\Touple\obj\Debug\net8.0\ref\Touple.dll
