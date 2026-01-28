@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|d:\\study\\mayank_dhakate_100427\\groupby\\groupby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|solutionrelative:groupby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Program.cs",
+              "RelativeDocumentMoniker": "GroupBy\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Program.cs",
+              "RelativeToolTip": "GroupBy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:01:07.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
