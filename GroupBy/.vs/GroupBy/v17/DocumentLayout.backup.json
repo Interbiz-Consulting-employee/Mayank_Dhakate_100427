@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|d:\\study\\mayank_dhakate_100427\\groupby\\groupby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|solutionrelative:groupby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|d:\\study\\mayank_dhakate_100427\\groupby\\groupby\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11047E2-AA5A-4770-90BB-EBC8B345895D}|GroupBy\\GroupBy.csproj|solutionrelative:groupby\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Employee.cs",
+              "RelativeDocumentMoniker": "GroupBy\\Employee.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Employee.cs",
+              "RelativeToolTip": "GroupBy\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T12:35:56.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Program.cs",
               "RelativeDocumentMoniker": "GroupBy\\Program.cs",
-              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Program.cs",
-              "RelativeToolTip": "GroupBy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\GroupBy\\GroupBy\\Program.cs*",
+              "RelativeToolTip": "GroupBy\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-28T10:01:07.924Z",
               "EditorCaption": ""

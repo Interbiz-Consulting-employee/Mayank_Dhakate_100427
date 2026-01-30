@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\bin\Debug\net8.0\EmployeeLinq.exe
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\bin\Debug\net8.0\EmployeeLinq.deps.json
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\bin\Debug\net8.0\EmployeeLinq.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\bin\Debug\net8.0\EmployeeLinq.dll
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\bin\Debug\net8.0\EmployeeLinq.pdb
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.dll
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\refint\EmployeeLinq.dll
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.pdb
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\EmployeeLinq.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\EmployeeLinq\EmployeeLinq\obj\Debug\net8.0\ref\EmployeeLinq.dll

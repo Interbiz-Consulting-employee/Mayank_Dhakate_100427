@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\bin\Debug\net8.0\Regex_Match.exe
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\bin\Debug\net8.0\Regex_Match.deps.json
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\bin\Debug\net8.0\Regex_Match.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\bin\Debug\net8.0\Regex_Match.dll
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\bin\Debug\net8.0\Regex_Match.pdb
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.dll
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\refint\Regex_Match.dll
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.pdb
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\Regex_Match.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Regex_Match\Regex_Match\obj\Debug\net8.0\ref\Regex_Match.dll

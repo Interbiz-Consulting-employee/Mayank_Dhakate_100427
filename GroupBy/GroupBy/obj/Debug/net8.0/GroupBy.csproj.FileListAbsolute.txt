@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\bin\Debug\net8.0\GroupBy.exe
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\bin\Debug\net8.0\GroupBy.deps.json
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\bin\Debug\net8.0\GroupBy.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\bin\Debug\net8.0\GroupBy.dll
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\bin\Debug\net8.0\GroupBy.pdb
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.dll
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\refint\GroupBy.dll
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.pdb
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\GroupBy.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\GroupBy\GroupBy\obj\Debug\net8.0\ref\GroupBy.dll

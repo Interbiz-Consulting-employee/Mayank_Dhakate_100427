@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\regex\regex\bin\Debug\net8.0\regex.exe
+D:\Study\Mayank_Dhakate_100427\regex\regex\bin\Debug\net8.0\regex.deps.json
+D:\Study\Mayank_Dhakate_100427\regex\regex\bin\Debug\net8.0\regex.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\regex\regex\bin\Debug\net8.0\regex.dll
+D:\Study\Mayank_Dhakate_100427\regex\regex\bin\Debug\net8.0\regex.pdb
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.dll
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\refint\regex.dll
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.pdb
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\regex.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\regex\regex\obj\Debug\net8.0\ref\regex.dll

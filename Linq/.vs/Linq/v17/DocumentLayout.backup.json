@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\Linq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EEC264E-34CC-4319-954E-758E6DB63A85}|Linq\\Linq.csproj|d:\\study\\mayank_dhakate_100427\\linq\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EEC264E-34CC-4319-954E-758E6DB63A85}|Linq\\Linq.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28C96036-F505-4365-B44D-E284DEB46842}|Linq\\Linq.csproj|d:\\study\\mayank_dhakate_100427\\linq\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C96036-F505-4365-B44D-E284DEB46842}|Linq\\Linq.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "Linq\\Program.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\Linq\\Linq\\Program.cs",
               "RelativeToolTip": "Linq\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwDMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T03:49:28.123Z",
+              "WhenOpened": "2026-01-29T10:35:58.669Z",
               "EditorCaption": ""
             }
           ]
