@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\bin\Debug\net8.0\Linq_Practise.exe
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\bin\Debug\net8.0\Linq_Practise.deps.json
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\bin\Debug\net8.0\Linq_Practise.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\bin\Debug\net8.0\Linq_Practise.dll
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\bin\Debug\net8.0\Linq_Practise.pdb
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.dll
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\refint\Linq_Practise.dll
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.pdb
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\Linq_Practise.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Linq_Practise\Linq_Practise\obj\Debug\net8.0\ref\Linq_Practise.dll

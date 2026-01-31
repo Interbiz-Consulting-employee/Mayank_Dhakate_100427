@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\bin\Debug\net8.0\Mobileno_ValidateRegex.exe
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\bin\Debug\net8.0\Mobileno_ValidateRegex.deps.json
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\bin\Debug\net8.0\Mobileno_ValidateRegex.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\bin\Debug\net8.0\Mobileno_ValidateRegex.dll
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\bin\Debug\net8.0\Mobileno_ValidateRegex.pdb
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.dll
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\refint\Mobileno_ValidateRegex.dll
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.pdb
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\Mobileno_ValidateRegex.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Mobileno_ValidateRegex\Mobileno_ValidateRegex\obj\Debug\net8.0\ref\Mobileno_ValidateRegex.dll
