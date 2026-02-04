@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\bin\Debug\net8.0\Multithread.exe
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\bin\Debug\net8.0\Multithread.deps.json
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\bin\Debug\net8.0\Multithread.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\bin\Debug\net8.0\Multithread.dll
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\bin\Debug\net8.0\Multithread.pdb
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.dll
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\refint\Multithread.dll
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.pdb
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\Multithread.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Multithread\Multithread\obj\Debug\net8.0\ref\Multithread.dll

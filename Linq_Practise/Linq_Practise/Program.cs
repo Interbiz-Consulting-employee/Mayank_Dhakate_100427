@@ -1,5 +1,6 @@
 ﻿namespace Linq_Practise
 {
+    using System.Collections.Generic;
     public class Program
     {
         static void Main(string[] args)
@@ -16,6 +17,14 @@
                 new Employee{Id=8,Name="Satish",Department="Finance",Salary=120000},
 
             };
+            IEnumerable<Employee> employees1 = employees.OrderBy(e=>e.Salary).Select(e=>e);
+            foreach(var item in employees1)
+            {
+                Console.WriteLine(item.Name+item.Salary);
+
+            }
+
+
             //Select using query and method syntax
             // var query =from e in employees
             //            select e;
@@ -151,11 +160,11 @@
             //{
             //    Console.WriteLine(item);
             //}
-            var topthreemethod = employees.OrderByDescending(e => e.Salary).Select(e => e.Name).Take(3);
-            foreach (var item in topthreemethod)
-            {
-                Console.WriteLine(item);
-            }
+            //var topthreemethod = employees.OrderByDescending(e => e.Salary).Select(e => e.Name).Take(3);
+            //foreach (var item in topthreemethod)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
         }
     }
