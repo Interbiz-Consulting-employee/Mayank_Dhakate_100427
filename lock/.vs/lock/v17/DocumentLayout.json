@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\lock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC80117-636F-4A9C-905F-14D695EE5149}|lock\\lock.csproj|d:\\study\\mayank_dhakate_100427\\lock\\lock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC80117-636F-4A9C-905F-14D695EE5149}|lock\\lock.csproj|solutionrelative:lock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\lock\\lock\\Program.cs",
+              "RelativeDocumentMoniker": "lock\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\lock\\lock\\Program.cs",
+              "RelativeToolTip": "lock\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:12:14.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

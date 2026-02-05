@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\lock\lock\bin\Debug\net8.0\lock.exe
+D:\Study\Mayank_Dhakate_100427\lock\lock\bin\Debug\net8.0\lock.deps.json
+D:\Study\Mayank_Dhakate_100427\lock\lock\bin\Debug\net8.0\lock.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\lock\lock\bin\Debug\net8.0\lock.dll
+D:\Study\Mayank_Dhakate_100427\lock\lock\bin\Debug\net8.0\lock.pdb
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.dll
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\refint\lock.dll
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.pdb
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\lock.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\lock\lock\obj\Debug\net8.0\ref\lock.dll
