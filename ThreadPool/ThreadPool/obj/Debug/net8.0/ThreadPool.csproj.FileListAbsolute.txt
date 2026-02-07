@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\bin\Debug\net8.0\ThreadPool.exe
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\bin\Debug\net8.0\ThreadPool.deps.json
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\bin\Debug\net8.0\ThreadPool.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\bin\Debug\net8.0\ThreadPool.dll
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\bin\Debug\net8.0\ThreadPool.pdb
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.dll
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\refint\ThreadPool.dll
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.pdb
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ThreadPool.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\ThreadPool\ThreadPool\obj\Debug\net8.0\ref\ThreadPool.dll

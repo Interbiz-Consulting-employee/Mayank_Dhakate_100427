@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\bin\Debug\net8.0\Wait.exe
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\bin\Debug\net8.0\Wait.deps.json
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\bin\Debug\net8.0\Wait.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\bin\Debug\net8.0\Wait.dll
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\bin\Debug\net8.0\Wait.pdb
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.dll
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\refint\Wait.dll
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.pdb
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\Wait.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Wait\Wait\obj\Debug\net8.0\ref\Wait.dll

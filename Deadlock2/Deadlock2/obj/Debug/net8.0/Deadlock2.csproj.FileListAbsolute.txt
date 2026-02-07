@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\bin\Debug\net8.0\Deadlock2.exe
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\bin\Debug\net8.0\Deadlock2.deps.json
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\bin\Debug\net8.0\Deadlock2.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\bin\Debug\net8.0\Deadlock2.dll
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\bin\Debug\net8.0\Deadlock2.pdb
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.dll
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\refint\Deadlock2.dll
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.pdb
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\Deadlock2.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Deadlock2\Deadlock2\obj\Debug\net8.0\ref\Deadlock2.dll

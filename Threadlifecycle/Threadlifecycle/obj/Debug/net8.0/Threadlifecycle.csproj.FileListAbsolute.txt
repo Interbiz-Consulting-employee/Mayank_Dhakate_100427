@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\bin\Debug\net8.0\Threadlifecycle.exe
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\bin\Debug\net8.0\Threadlifecycle.deps.json
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\bin\Debug\net8.0\Threadlifecycle.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\bin\Debug\net8.0\Threadlifecycle.dll
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\bin\Debug\net8.0\Threadlifecycle.pdb
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.dll
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\refint\Threadlifecycle.dll
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.pdb
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\Threadlifecycle.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\Threadlifecycle\Threadlifecycle\obj\Debug\net8.0\ref\Threadlifecycle.dll

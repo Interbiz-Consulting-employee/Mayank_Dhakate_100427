@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataStore.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\DataStore.cs",
+              "RelativeDocumentMoniker": "StudentManagementApp\\DataStore.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\DataStore.cs",
+              "RelativeToolTip": "StudentManagementApp\\DataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T06:55:32.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagementApp\\Student.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Student.cs",
+              "RelativeToolTip": "StudentManagementApp\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T06:45:21.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagementApp\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Program.cs",
+              "RelativeToolTip": "StudentManagementApp\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T06:43:00.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

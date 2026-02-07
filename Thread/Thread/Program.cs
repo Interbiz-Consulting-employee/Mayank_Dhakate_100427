@@ -23,7 +23,7 @@
                 for (int i = 1; i <= 5; i++)
                 {
                     Console.WriteLine("Number: " + i);
-                    Thread.Sleep(500); // pause for 0.5 sec
+                    Thread.Sleep(1000); 
                 }
             }
 
@@ -33,7 +33,7 @@
                 for (char c = 'A'; c <= 'E'; c++)
                 {
                     Console.WriteLine("Letter: " + c);
-                    Thread.Sleep(500); // pause for 0.5 sec
+                    Thread.Sleep(1000); 
                 }
             }
         }
