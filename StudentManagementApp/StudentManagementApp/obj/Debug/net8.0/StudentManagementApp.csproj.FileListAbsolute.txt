@@ -1,0 +1,15 @@
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\bin\Debug\net8.0\StudentManagementApp.exe
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\bin\Debug\net8.0\StudentManagementApp.deps.json
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\bin\Debug\net8.0\StudentManagementApp.runtimeconfig.json
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\bin\Debug\net8.0\StudentManagementApp.dll
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\bin\Debug\net8.0\StudentManagementApp.pdb
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.AssemblyInfoInputs.cache
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.AssemblyInfo.cs
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.csproj.CoreCompileInputs.cache
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.sourcelink.json
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.dll
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\refint\StudentManagementApp.dll
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.pdb
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\StudentManagementApp.genruntimeconfig.cache
+D:\Study\Mayank_Dhakate_100427\StudentManagementApp\StudentManagementApp\obj\Debug\net8.0\ref\StudentManagementApp.dll

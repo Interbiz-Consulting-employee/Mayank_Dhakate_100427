@@ -16,12 +16,12 @@ namespace StudentManagementApp
 
         public string Address { get; set; }
 
-        public List<string> Subjects { get; set; }
+        public List<SubjectType> Subjects { get; set; }
         public List<int> Marks { get; set; }
 
         public List<string> Hobbies { get; set; }
 
         public DateTime AddedDate { get; set; }
-
+        
     }
 }

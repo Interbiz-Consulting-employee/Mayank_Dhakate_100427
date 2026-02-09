@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|d:\\study\\mayank_dhakate_100427\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|d:\\study\\mayank_dhakate_100427\\studentapp\\studentapp\\subjecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\subjecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|d:\\study\\mayank_dhakate_100427\\studentapp\\studentapp\\studentextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50FEE66-7D32-4685-9442-E76C3307D96D}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\Program.cs",
+              "RelativeDocumentMoniker": "StudentApp\\Program.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\Program.cs",
+              "RelativeToolTip": "StudentApp\\Program.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAewHkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:56:11.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubjectType.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\SubjectType.cs",
+              "RelativeDocumentMoniker": "StudentApp\\SubjectType.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\SubjectType.cs",
+              "RelativeToolTip": "StudentApp\\SubjectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:56:39.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentExtensions.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\StudentExtensions.cs",
+              "RelativeDocumentMoniker": "StudentApp\\StudentExtensions.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentApp\\StudentApp\\StudentExtensions.cs",
+              "RelativeToolTip": "StudentApp\\StudentExtensions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:55:06.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

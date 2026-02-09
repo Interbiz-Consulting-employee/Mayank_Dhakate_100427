@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|d:\\study\\mayank_dhakate_100427\\studentmanagementapp\\studentmanagementapp\\helpermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC885E35-A6AE-4E56-B1EC-AA57286C4CEA}|StudentManagementApp\\StudentManagementApp.csproj|solutionrelative:studentmanagementapp\\helpermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Helpermethod.cs",
+              "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Helpermethod.cs",
+              "RelativeDocumentMoniker": "StudentManagementApp\\Helpermethod.cs",
+              "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Helpermethod.cs",
+              "RelativeToolTip": "StudentManagementApp\\Helpermethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:37:52.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataStore.cs",
               "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\DataStore.cs",
               "RelativeDocumentMoniker": "StudentManagementApp\\DataStore.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\DataStore.cs",
               "RelativeToolTip": "StudentManagementApp\\DataStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:55:32.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T06:55:32.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagementApp\\Student.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Student.cs",
               "RelativeToolTip": "StudentManagementApp\\Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:45:21.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T06:45:21.011Z"
             },
             {
               "$type": "Document",
@@ -62,7 +76,7 @@
               "RelativeDocumentMoniker": "StudentManagementApp\\Program.cs",
               "ToolTip": "D:\\Study\\Mayank_Dhakate_100427\\StudentManagementApp\\StudentManagementApp\\Program.cs",
               "RelativeToolTip": "StudentManagementApp\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T06:43:00.623Z",
               "EditorCaption": ""
