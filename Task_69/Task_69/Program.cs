@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string[] strs = { "flower", "flow", "flight" };
+            String[] strs = { "flower", "flow", "flight" };
             //string[] strs = { "dog", "racecar", "car" };
 
             string result = LongestCommonPrefix(strs);
