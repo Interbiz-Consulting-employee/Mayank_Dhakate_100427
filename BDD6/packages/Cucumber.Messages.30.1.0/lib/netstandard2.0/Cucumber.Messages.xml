@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cucumber.Messages</name>
+    </assembly>
+    <members>
+        <member name="T:Cucumber.Messages.MessageToNdjsonWriter">
+            <summary>
+             The NdjsonMessageWriter class provides a stream based interface for writing Cucumber messages in ndjson format 
+            
+            The actual serialization is delegated to a Action&lt;StreamWriter, Envelope&gt;. This is done to avoid tying this library to any specific JSON library or library version.
+            </summary>
+        </member>
+        <member name="T:Cucumber.Messages.NdjsonMessageReader">
+            <summary>
+            The NdjsonMessageReader class provides a stream based interface for reading Cucumber messages in ndjson format and produces Cucumber messages (Envelope)
+            
+            The actual deserialization is delegated to a Func&lt;string, Envelope&gt;. This is done to avoid tying this library to any specific JSON library or library version.
+            </summary>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Attachment">
+             Represents the Attachment message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Attachments (parse errors, execution errors, screenshots, links...)
+            
+             An attachment represents any kind of data associated with a line in a
+             [Source](#io.cucumber.messages.Source) file. It can be used for:
+            
+             * Syntax errors during parse time
+             * Screenshots captured and attached during execution
+             * Logs captured and attached during execution
+            
+             It is not to be used for runtime errors raised/thrown during execution. This
+             is captured in `TestResult`.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.Body">
+            The body of the attachment. If `contentEncoding` is `IDENTITY`, the attachment
+            is simply the string. If it's `BASE64`, the string should be Base64 decoded to
+            obtain the attachment.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.ContentEncoding">
+             Whether to interpret `body` "as-is" (IDENTITY) or if it needs to be Base64-decoded (BASE64).
+            
+             Content encoding is *not* determined by the media type, but rather by the type
+             of the object being attached:
+            
+             - string: IDENTITY
+             - byte array: BASE64
+             - stream: BASE64
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.FileName">
+            Suggested file name of the attachment. (Provided by the user as an argument to `attach`)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.MediaType">
+            The media type of the data. This can be any valid
+            [IANA Media Type](https://www.iana.org/assignments/media-types/media-types.xhtml)
+            as well as Cucumber-specific media types such as `text/x.cucumber.gherkin+plain`
+            and `text/x.cucumber.stacktrace+plain`
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.TestCaseStartedId">
+            The identifier of the test case attempt if the attachment was created during the execution of a test step
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.TestStepId">
+            The identifier of the test step if the attachment was created during the execution of a test step
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.Url">
+             A URL where the attachment can be retrieved. This field should not be set by Cucumber.
+             It should be set by a program that reads a message stream and does the following for
+             each Attachment message:
+            
+             - Writes the body (after base64 decoding if necessary) to a new file.
+             - Sets `body` and `contentEncoding` to `null`
+             - Writes out the new attachment message
+            
+             This will result in a smaller message stream, which can improve performance and
+             reduce bandwidth of message consumers. It also makes it easier to process and download attachments
+             separately from reports.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.TestRunStartedId">
+            Not used; implementers should instead populate `testRunHookStartedId` if an attachment was created during the execution of a test run hook
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.TestRunHookStartedId">
+            The identifier of the test run hook execution if the attachment was created during the execution of a test run hook
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Attachment.Timestamp">
+            When the attachment was created
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Background">
+            Represents the Background message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Background.Location">
+            The location of the `Background` keyword
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Ci">
+             Represents the Ci message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             CI environment
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Ci.Name">
+            Name of the CI product, e.g. "Jenkins", "CircleCI" etc.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Ci.Url">
+            Link to the build
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Ci.BuildNumber">
+            The build number. Some CI servers use non-numeric build numbers, which is why this is a string
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Comment">
+             Represents the Comment message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A comment in a Gherkin document
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Comment.Location">
+            The location of the comment
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Comment.Text">
+            The text of the comment
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.DataTable">
+            Represents the DataTable message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.DocString">
+            Represents the DocString message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Duration">
+             Represents the Duration message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             The structure is pretty close of the Timestamp one. For clarity, a second type
+             of message is used.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Duration.Nanos">
+            Non-negative fractions of a second at nanosecond resolution. Negative
+            second values with fractions must still have non-negative nanos values
+            that count forward in time. Must be from 0 to 999,999,999
+            inclusive.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Envelope">
+            Represents the Envelope message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Examples">
+            Represents the Examples message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Examples.Location">
+            The location of the `Examples` keyword
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Exception">
+             Represents the Exception message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A simplified representation of an exception
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Exception.Type">
+            The type of the exception that caused this result. E.g. "Error" or "org.opentest4j.AssertionFailedError"
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Exception.Message">
+            The message of exception that caused this result. E.g. expected: "a" but was: "b"
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Exception.StackTrace">
+            The stringified stack trace of the exception that caused this result
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Feature">
+            Represents the Feature message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Location">
+            The location of the `Feature` keyword
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Tags">
+            All the tags placed above the `Feature` keyword
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Language">
+            The [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code of the Gherkin document
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Keyword">
+            The text of the `Feature` keyword (in the language specified by `language`)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Name">
+            The name of the feature (the text following the `keyword`)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Description">
+            The line(s) underneath the line with the `keyword` that are used as description
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Feature.Children">
+            Zero or more children
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.FeatureChild">
+             Represents the FeatureChild message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A child node of a `Feature` node
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.GherkinDocument">
+             Represents the GherkinDocument message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             The [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) of a Gherkin document.
+             Cucumber implementations should *not* depend on `GherkinDocument` or any of its
+             children for execution - use [Pickle](#io.cucumber.messages.Pickle) instead.
+            
+             The only consumers of `GherkinDocument` should only be formatters that produce
+             "rich" output, resembling the original Gherkin document.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.GherkinDocument.Uri">
+            The [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
+            of the source, typically a file path relative to the root directory
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.GherkinDocument.Comments">
+            All the comments in the Gherkin document
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Git">
+             Represents the Git message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Information about Git, provided by the Build/CI server as environment
+             variables.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Group">
+            Represents the Group message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Hook">
+            Represents the Hook message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.JavaMethod">
+            Represents the JavaMethod message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.JavaStackTraceElement">
+            Represents the JavaStackTraceElement message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Location">
+             Represents the Location message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Points to a line and a column in a text file
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Meta">
+             Represents the Meta message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             This message contains meta information about the environment. Consumers can use
+             this for various purposes.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Meta.ProtocolVersion">
+            The [SEMVER](https://semver.org/) version number of the protocol
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Meta.Implementation">
+            SpecFlow, Cucumber-JVM, Cucumber.js, Cucumber-Ruby, Behat etc.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Meta.Runtime">
+            Java, Ruby, Node.js etc
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Meta.Os">
+            Windows, Linux, MacOS etc
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Meta.Cpu">
+            386, arm, amd64 etc
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.ParameterType">
+            Represents the ParameterType message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.ParameterType.Name">
+            The name is unique, so we don't need an id.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.ParseError">
+            Represents the ParseError message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Pickle">
+             Represents the Pickle message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A `Pickle` represents a template for a `TestCase`. It is typically derived
+             from another format, such as [GherkinDocument](#io.cucumber.messages.GherkinDocument).
+             In the future a `Pickle` may be derived from other formats such as Markdown or
+             Excel files.
+            
+             By making `Pickle` the main data structure Cucumber uses for execution, the
+             implementation of Cucumber itself becomes simpler, as it doesn't have to deal
+             with the complex structure of a [GherkinDocument](#io.cucumber.messages.GherkinDocument).
+            
+             Each `PickleStep` of a `Pickle` is matched with a `StepDefinition` to create a `TestCase`
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Id">
+            A unique id for the pickle
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Uri">
+            The uri of the source file
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Name">
+            The name of the pickle
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Language">
+            The language of the pickle
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Steps">
+            One or more steps
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.Tags">
+            One or more tags. If this pickle is constructed from a Gherkin document,
+            It includes inherited tags from the `Feature` as well.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Pickle.AstNodeIds">
+            Points to the AST node locations of the pickle. The last one represents the unique
+            id of the pickle. A pickle constructed from `Examples` will have the first
+            id originating from the `Scenario` AST node, and the second from the `TableRow` AST node.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleDocString">
+            Represents the PickleDocString message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleStep">
+             Represents the PickleStep message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             An executable step
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.PickleStep.AstNodeIds">
+            References the IDs of the source of the step. For Gherkin, this can be
+            the ID of a Step, and possibly also the ID of a TableRow
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.PickleStep.Id">
+            A unique ID for the PickleStep
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.PickleStep.Type">
+             The context in which the step was specified: context (Given), action (When) or outcome (Then).
+            
+             Note that the keywords `But` and `And` inherit their meaning from prior steps and the `*` 'keyword' doesn't have specific meaning (hence Unknown)
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleStepArgument">
+             Represents the PickleStepArgument message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             An optional argument
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleTable">
+            Represents the PickleTable message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleTableCell">
+            Represents the PickleTableCell message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleTableRow">
+            Represents the PickleTableRow message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.PickleTag">
+             Represents the PickleTag message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A tag
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.PickleTag.AstNodeId">
+            Points to the AST node this was created from
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Product">
+             Represents the Product message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Used to describe various properties of Meta
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Product.Name">
+            The product name
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Product.Version">
+            The product version
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Rule">
+            Represents the Rule message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Rule.Location">
+            The location of the `Rule` keyword
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Rule.Tags">
+            All the tags placed above the `Rule` keyword
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.RuleChild">
+             Represents the RuleChild message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A child node of a `Rule` node
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Scenario">
+            Represents the Scenario message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Scenario.Location">
+            The location of the `Scenario` keyword
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Snippet">
+            Represents the Snippet message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Snippet.Language">
+             The programming language of the code.
+            
+             This must be formatted as an all lowercase identifier such that syntax highlighters like [Prism](https://prismjs.com/#supported-languages) or [Highlight.js](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md) can recognize it.
+             For example: `cpp`, `cs`, `go`, `java`, `javascript`, `php`, `python`, `ruby`, `scala`.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Snippet.Code">
+            A snippet of code
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Source">
+             Represents the Source message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A source file, typically a Gherkin document or Java/Ruby/JavaScript source code
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Source.Uri">
+            The [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
+            of the source, typically a file path relative to the root directory
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Source.Data">
+            The contents of the file
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Source.MediaType">
+            The media type of the file. Can be used to specify custom types, such as
+            text/x.cucumber.gherkin+plain
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.SourceReference">
+             Represents the SourceReference message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Points to a [Source](#io.cucumber.messages.Source) identified by `uri` and a
+             [Location](#io.cucumber.messages.Location) within that file.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Step">
+             Represents the Step message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A step
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Step.Location">
+            The location of the steps' `keyword`
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Step.Keyword">
+            The actual keyword as it appeared in the source.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Step.KeywordType">
+            The test phase signalled by the keyword: Context definition (Given), Action performance (When), Outcome assertion (Then). Other keywords signal Continuation (And and But) from a prior keyword. Please note that all translations which a dialect maps to multiple keywords (`*` is in this category for all dialects), map to 'Unknown'.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Step.Id">
+            Unique ID to be able to reference the Step from PickleStep
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.StepDefinition">
+            Represents the StepDefinition message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.StepDefinitionPattern">
+            Represents the StepDefinitionPattern message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.StepMatchArgument">
+             Represents the StepMatchArgument message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             Represents a single argument extracted from a step match and passed to a step definition.
+             This is used for the following purposes:
+             - Construct an argument to pass to a step definition (possibly through a parameter type transform)
+             - Highlight the matched parameter in rich formatters such as the HTML formatter
+            
+             This message closely matches the `Argument` class in the `cucumber-expressions` library.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.StepMatchArgument.Group">
+            Represents the outermost capture group of an argument. This message closely matches the
+            `Group` class in the `cucumber-expressions` library.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.StepMatchArgumentsList">
+            Represents the StepMatchArgumentsList message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Suggestion">
+             Represents the Suggestion message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A suggested fragment of code to implement an undefined step
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Suggestion.Id">
+            A unique id for this suggestion
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Suggestion.PickleStepId">
+            The ID of the `PickleStep` this `Suggestion` was created for.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Suggestion.Snippets">
+            A collection of code snippets that could implement the undefined step
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TableCell">
+             Represents the TableCell message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A cell in a `TableRow`
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TableCell.Location">
+            The location of the cell
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TableCell.Value">
+            The value of the cell
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TableRow">
+             Represents the TableRow message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A row in a table
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TableRow.Location">
+            The location of the first cell in the row
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TableRow.Cells">
+            Cells in the row
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Tag">
+             Represents the Tag message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A tag
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Tag.Location">
+            Location of the tag
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Tag.Name">
+            The name of the tag (including the leading `@`)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Tag.Id">
+            Unique ID to be able to reference the Tag from PickleTag
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestCase">
+             Represents the TestCase message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A `TestCase` contains a sequence of `TestStep`s.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestCase.PickleId">
+            The ID of the `Pickle` this `TestCase` is derived from.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestCase.TestRunStartedId">
+            Identifier for the test run that this test case belongs to
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestCaseFinished">
+            Represents the TestCaseFinished message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestCaseStarted">
+            Represents the TestCaseStarted message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestCaseStarted.Attempt">
+            The first attempt should have value 0, and for each retry the value
+            should increase by 1.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestCaseStarted.Id">
+            Because a `TestCase` can be run multiple times (in case of a retry),
+            we use this field to group messages relating to the same attempt.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestCaseStarted.WorkerId">
+            An identifier for the worker process running this test case, if test cases are being run in parallel. The identifier will be unique per worker, but no particular format is defined - it could be an index, uuid, machine name etc - and as such should be assumed that it's not human readable.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestRunFinished">
+            Represents the TestRunFinished message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunFinished.Message">
+            An informative message about the test run. Typically additional information about failure, but not necessarily.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunFinished.Success">
+            A test run is successful if all steps are either passed or skipped, all before/after hooks passed and no other exceptions where thrown.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunFinished.Timestamp">
+            Timestamp when the TestRun is finished
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunFinished.Exception">
+            Any exception thrown during the test run, if any. Does not include exceptions thrown while executing steps.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestRunHookFinished">
+            Represents the TestRunHookFinished message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunHookFinished.TestRunHookStartedId">
+            Identifier for the hook execution that has finished
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestRunHookStarted">
+            Represents the TestRunHookStarted message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunHookStarted.Id">
+            Unique identifier for this hook execution
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunHookStarted.TestRunStartedId">
+            Identifier for the test run that this hook execution belongs to
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunHookStarted.HookId">
+            Identifier for the hook that will be executed
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestRunHookStarted.WorkerId">
+            An identifier for the worker process running this hook, if parallel workers are in use. The identifier will be unique per worker, but no particular format is defined - it could be an index, uuid, machine name etc - and as such should be assumed that it's not human readable.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestRunStarted">
+            Represents the TestRunStarted message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestStep">
+             Represents the TestStep message in Cucumber's message protocol
+             @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+            
+             A `TestStep` is derived from either a `PickleStep` combined with a `StepDefinition`, or from a `Hook`.
+            
+             When derived from a PickleStep:
+             * For `UNDEFINED` steps `stepDefinitionIds` and `stepMatchArgumentsLists` will be empty.
+             * For `AMBIGUOUS` steps, there will be multiple entries in `stepDefinitionIds` and `stepMatchArgumentsLists`. The first entry in the stepMatchArgumentsLists holds the list of arguments for the first matching step definition, the second entry for the second, etc
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStep.HookId">
+            Pointer to the `Hook` (if derived from a Hook)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStep.PickleStepId">
+            Pointer to the `PickleStep` (if derived from a `PickleStep`)
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStep.StepDefinitionIds">
+             Pointer to all the matching `StepDefinition`s (if derived from a `PickleStep`).
+            
+             Each element represents a matching step definition.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStep.StepMatchArgumentsLists">
+             A list of list of StepMatchArgument (if derived from a `PickleStep`).
+            
+             Each element represents the arguments for a matching step definition.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestStepFinished">
+            Represents the TestStepFinished message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestStepResult">
+            Represents the TestStepResult message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStepResult.Message">
+            An arbitrary bit of information that explains this result. If there was an exception, this should include a stringified representation of it including type, message and stack trace (the exact format will vary by platform).
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.TestStepResult.Exception">
+            Exception thrown while executing this step, if any.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.TestStepStarted">
+            Represents the TestStepStarted message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.Timestamp">
+            Represents the Timestamp message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Timestamp.Seconds">
+            Represents seconds of UTC time since Unix epoch
+            1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to
+            9999-12-31T23:59:59Z inclusive.
+        </member>
+        <member name="P:Io.Cucumber.Messages.Types.Timestamp.Nanos">
+            Non-negative fractions of a second at nanosecond resolution. Negative
+            second values with fractions must still have non-negative nanos values
+            that count forward in time. Must be from 0 to 999,999,999
+            inclusive.
+        </member>
+        <member name="T:Io.Cucumber.Messages.Types.UndefinedParameterType">
+            Represents the UndefinedParameterType message in Cucumber's message protocol
+            @see <a href="https://github.com/cucumber/messages" >Github - Cucumber - Messages</a>
+        </member>
+    </members>
+</doc>

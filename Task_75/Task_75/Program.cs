@@ -6,7 +6,9 @@
         {
             //string s = "aab";
             //string s = "racecar";
-            string s = "abccbc";
+            //string s = "abccbc";
+           // string s = "noonabbad";
+            string s = "levelup";
             MinPalindromePartition(s);
         }
 

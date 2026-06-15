@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD reqn roll123", "BDD reqn roll123.csproj", "{98BF16EE-58F7-47AC-8E44-4E391BA0E1A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98BF16EE-58F7-47AC-8E44-4E391BA0E1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BF16EE-58F7-47AC-8E44-4E391BA0E1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BF16EE-58F7-47AC-8E44-4E391BA0E1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BF16EE-58F7-47AC-8E44-4E391BA0E1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20F8BB0E-F15D-4B71-847D-45D834D29595}
+	EndGlobalSection
+EndGlobal

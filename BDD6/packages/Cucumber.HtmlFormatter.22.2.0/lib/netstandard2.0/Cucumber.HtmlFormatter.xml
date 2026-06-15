@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cucumber.HtmlFormatter</name>
+    </assembly>
+    <members>
+        <member name="T:Cucumber.HtmlFormatter.HtmlReportSettings">
+            <summary>
+            Settings for HTML report generation
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.Title">
+            <summary>
+            Gets or sets the title of the HTML report.
+            Default is "Cucumber".
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.Icon">
+            <summary>
+            Gets or sets the icon for the HTML report.
+            Default is the Cucumber icon as a base64-encoded SVG.
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomCss">
+            <summary>
+            Gets or sets custom CSS to include in the HTML report.
+            Default is empty.
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomScript">
+            <summary>
+            Gets or sets custom Javascript to include after the main Javascript section of the HTML report.
+            Default is empty.
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.JavascriptResourceLoader">
+            <summary>
+            Gets or sets the function that loads the main Javascript resource for the HTML report.
+            This should only be customized if you use a custom node.js project to serve the HTML report,
+            for smaller customizations you can use the <see cref="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomScript"/> and <see cref="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomCss"/> property.
+            </summary>
+        </member>
+        <member name="P:Cucumber.HtmlFormatter.HtmlReportSettings.CssResourceLoader">
+            <summary>
+            Gets or sets the function that loads the main CSS resource for the HTML report.
+            This should only be customized if you use a custom node.js project to serve the HTML report,
+            for smaller customizations you can use the <see cref="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomScript"/> and <see cref="P:Cucumber.HtmlFormatter.HtmlReportSettings.CustomCss"/> property.
+            </summary>
+        </member>
+        <member name="M:Cucumber.HtmlFormatter.HtmlReportSettings.#ctor">
+            <summary>
+            Creates a new instance of HtmlReportSettings with default values.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+﻿Feature: Login Functionality
+  To ensure only valid users can login
+
+Scenario: Successful login with valid credentials
+  Given user is on login page
+  When user enters username "admin" and password "1234"
+  Then user should see the homepage

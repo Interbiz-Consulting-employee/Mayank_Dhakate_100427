@@ -1,0 +1,1574 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reqnroll</name>
+    </assembly>
+    <members>
+        <member name="T:Reqnroll.Analytics.AnalyticsRuntimeTelemetryService">
+            <summary>
+            A helper class that aggregates all dependencies required to send runtime telemetry events.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Analytics.AnalyticsRuntimeTelemetryService.#ctor(Reqnroll.Analytics.IAnalyticsTransmitter,Reqnroll.Analytics.IAnalyticsEventProvider,Reqnroll.Infrastructure.ITestAssemblyProvider)">
+            <summary>
+            A helper class that aggregates all dependencies required to send runtime telemetry events.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetry">
+            <summary>
+            For property names, check: https://github.com/microsoft/ApplicationInsights-Home/tree/master/EndpointSpecs/Schemas/Bond
+            For tags, check: https://github.com/microsoft/ApplicationInsights-Home/blob/master/EndpointSpecs/Schemas/Bond/ContextTagKeys.bond
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.Double">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.AppInsightsEventTelemetry">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.TelemetryData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.TelemetryDataItem">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.IAnalyticsEvent">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.DictionaryStringDouble">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.DictionaryStringString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.DateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Analytics.AppInsights.AppInsightsEventTelemetryJsonSourceGenerator.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Reqnroll.Analytics.IAnalyticsRuntimeTelemetryService">
+            <summary>
+            Dependency for sending runtime telemetry events.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Assist.IValueComparer">
+            <summary>
+            A class that will compare a key->value from a table to an actual value.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Assist.IValueComparer.CanCompare(System.Object)">
+            <summary>
+            Determines if this comparer can compare the actual value to a key->value set defined in a table.
+            </summary>
+            <returns><c>true</c> if this instance can compare the value to a key->value set in a table; otherwise, <c>false</c>.</returns>
+            <param name="actualValue">Actual value.</param>
+        </member>
+        <member name="M:Reqnroll.Assist.IValueComparer.Compare(System.String,System.Object)">
+            <summary>
+            Compare the expected value to the actual value.
+            </summary>
+            <param name="expectedValue">Expected value.</param>
+            <param name="actualValue">Actual value.</param>
+        </member>
+        <member name="T:Reqnroll.Assist.IValueRetriever">
+            <summary>
+            A class that will retrieve an object's actual value from a key->value in a table.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Assist.IValueRetriever.CanRetrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)">
+            <summary>
+            Determines if this retriever can retrieve the actual value from a key->value set in a table.
+            </summary>
+            <returns><c>true</c> if this instance can retrieve the specified key->value; otherwise, <c>false</c>.</returns>
+            <param name="keyValuePair">Key value pair.</param>
+            <param name="targetType">The type of the object that is being built from the table.</param>
+            <param name="propertyType">The type of the property or member that is being set.</param>
+        </member>
+        <member name="M:Reqnroll.Assist.IValueRetriever.Retrieve(System.Collections.Generic.KeyValuePair{System.String,System.String},System.Type,System.Type)">
+            <summary>
+            Retrieve the value from a key-> value set, as the expected type on targetType.
+            </summary>
+            <param name="keyValuePair">Key value pair.</param>
+            <param name="targetType">The type of the object that is being built from the table.</param>
+            <param name="propertyType">The type of the property or member that is being set.</param>
+        </member>
+        <member name="M:Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow)">
+            <summary>
+            Creates a new instance of <typeparamref name="T"/> from the <see cref="T:Reqnroll.DataTableRow"/>.
+            </summary>
+            <typeparam name="T">The type of the instance to be created.</typeparam>
+            <param name="row">The table row.</param>
+            <returns>A new instance of <typeparamref name="T"/> filled with the data from the <see cref="T:Reqnroll.DataTableRow"/>.</returns>
+        </member>
+        <member name="M:Reqnroll.Assist.RowExtensionMethods.CreateInstance``1(Reqnroll.DataTableRow,System.Func{``0})">
+            <summary>
+            Creates a new instance of <typeparamref name="T"/> from the <see cref="T:Reqnroll.DataTableRow"/>.
+            </summary>
+            <typeparam name="T">The type of the instance to be created.</typeparam>
+            <param name="row">The table row.</param>
+            <param name="methodToCreateTheInstance">The method to create a new instance.</param>
+            <returns>A new instance of <typeparamref name="T"/> filled with the data from the <see cref="T:Reqnroll.DataTableRow"/>.</returns>
+        </member>
+        <member name="P:Reqnroll.Assist.ValueRetrievers.DateTimeOffsetValueRetriever.DateTimeStyles">
+            <summary>
+            Gets or sets the DateTimeStyles to use when parsing the string value.
+            </summary>
+            <remarks>Defaults to DateTimeStyles.None.</remarks>
+        </member>
+        <member name="P:Reqnroll.Assist.ValueRetrievers.DateTimeValueRetriever.DateTimeStyles">
+            <summary>
+            Gets or sets the DateTimeStyles to use when parsing the string value.
+            </summary>
+            <remarks>Defaults to DateTimeStyles.None.</remarks>
+        </member>
+        <member name="M:Reqnroll.InstanceComparisonExtensionMethods.IsEquivalentToInstance``1(Reqnroll.Table,``0)">
+            <summary>
+            Indicates whether the table is equivalent to the specified instance by comparing the values of all
+            columns against the properties of the instance.  Will return false after finding the first difference.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.BindingAttribute">
+            <summary>
+            Marker attribute that specifies that this class may contain bindings (step definitions, hooks, etc.)
+            </summary>
+        </member>
+        <member name="P:Reqnroll.StepDefinitionBaseAttribute.Expression">
+            <summary>
+            A cucumber expression or a regular expression (regex) that matches the step text.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.StepDefinitionBaseAttribute.ExpressionType">
+            <summary>
+            The type of <see cref="P:Reqnroll.StepDefinitionBaseAttribute.Expression"/> used for matching the step text, a cucumber expression or a regular expression (regex).
+            </summary>
+        </member>
+        <member name="T:Reqnroll.GivenAttribute">
+            <summary>
+            Specifies a 'Given' step definition that matches for the provided regular expression.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.GivenAttribute.#ctor(System.String)">
+            <param name="expression">A cucumber expression or a regular expression (regex) that matches the step text.</param>
+        </member>
+        <member name="T:Reqnroll.WhenAttribute">
+            <summary>
+            Specifies a 'When' step definition that matches for the provided regular expression.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.WhenAttribute.#ctor(System.String)">
+            <param name="expression">A cucumber expression or a regular expression (regex) that matches the step text.</param>
+        </member>
+        <member name="T:Reqnroll.ThenAttribute">
+            <summary>
+            Specifies a 'Then' step definition that matches for the provided regular expression.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.ThenAttribute.#ctor(System.String)">
+            <param name="expression">A cucumber expression or a regular expression (regex) that matches the step text.</param>
+        </member>
+        <member name="T:Reqnroll.StepDefinitionAttribute">
+            <summary>
+            Specifies a step definition that matches for the provided regular expression and any step kinds (given, when, then).
+            </summary>
+        </member>
+        <member name="M:Reqnroll.StepDefinitionAttribute.#ctor(System.String)">
+            <param name="expression">A cucumber expression or a regular expression (regex) that matches the step text.</param>
+        </member>
+        <member name="M:Reqnroll.Bindings.Discovery.BindingSourceProcessor.GetExpressionString(Reqnroll.Bindings.Discovery.BindingSourceAttribute)">
+            <summary>
+            Get the <see cref="P:Reqnroll.StepDefinitionBaseAttribute.Expression"/> string from the step definition attribute.
+            </summary>
+            <remarks>The expressionString what called in Reqnroll v1+v2 Regex, and since v3 Expression</remarks>
+        </member>
+        <member name="T:Reqnroll.Bindings.IStepArgumentTransformationBinding">
+            <summary>
+            Represents a custom step definition parameter binding
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Name">
+            <summary>
+            The optional name of the custom parameter. The name can be used in cucumber expressions.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Regex">
+            <summary>
+            The regular expression matches the step argument. Optional, if null, the transformation receives the entire argument.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.IStepArgumentTransformationBinding.Order">
+            <summary>
+            The deterministic order for step argument transformation
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.BindingData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.BindingScopeData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.BindingSourceData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.BindingSourceMethodData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.HookData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.HookDataArray">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.StepArgumentTransformationData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.StepArgumentTransformationDataArray">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.StepDefinitionData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.StepDefinitionDataArray">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.Int32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.NullableInt32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.StringArray">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Bindings.Provider.BindingJsonSourceGenerator.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Bindings.Provider.BindingProviderService.DiscoverBindings(System.Reflection.Assembly,System.String)">
+            <summary>
+            Invoked by the Visual Studio extension connectors. Do not remove or change the signature.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Reflection.IBindingMethod.Type">
+            <summary>
+            The declaring type of the method.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.Reflection.IBindingMethod.ReturnType">
+            <summary>
+            The return type of the method or <value>null</value> for void methods.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Bindings.StepInstance.Keyword">
+            <summary>
+            Keyword (including trailing spaces) used in the original specs or <value>null</value> if unknown.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.BindingSkeletons.StepTextAnalyzer.GetDateFormats">
+            <summary>
+            note: space separator not supported to prevent clashes
+            </summary>
+        </member>
+        <member name="E:Reqnroll.BoDi.IObjectContainer.ObjectCreated">
+            <summary>
+            Fired when a new object is created directly by the container. It is not invoked for resolving instance and factory registrations.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.RegisterTypeAs``2(System.String)">
+            <summary>
+            Registers a type as the desired implementation type of an interface.
+            </summary>
+            <typeparam name="TType">Implementation type</typeparam>
+            <typeparam name="TInterface">Interface will be resolved</typeparam>
+            <returns>An object which allows to change resolving strategy.</returns>
+            <param name="name">A name to register named instance, otherwise null.</param>
+            <exception cref="T:Reqnroll.BoDi.ObjectContainerException">If there was already a resolve for the <typeparamref name="TInterface"/>.</exception>
+            <remarks>
+                <para>Previous registrations can be overridden before the first resolution for the <typeparamref name="TInterface"/>.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs``1(``0,System.String,System.Boolean)">
+            <summary>
+            Registers an instance 
+            </summary>
+            <typeparam name="TInterface">Interface will be resolved</typeparam>
+            <param name="instance">The instance implements the interface.</param>
+            <param name="name">A name to register named instance, otherwise null.</param>
+            <param name="dispose">Whether the instance should be disposed on container dispose, otherwise <c>false</c>.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="instance"/> is null.</exception>
+            <exception cref="T:Reqnroll.BoDi.ObjectContainerException">If there was already a resolve for the <typeparamref name="TInterface"/>.</exception>
+            <remarks>
+                <para>Previous registrations can be overridden before the first resolution for the <typeparamref name="TInterface"/>.</para>
+                <para>The instance will be registered in the object pool, so if a <see cref="M:Reqnroll.BoDi.IObjectContainer.Resolve``1"/> (for another interface) would require an instance of the dynamic type of the <paramref name="instance"/>, the <paramref name="instance"/> will be returned.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.RegisterInstanceAs(System.Object,System.Type,System.String,System.Boolean)">
+            <summary>
+            Registers an instance 
+            </summary>
+            <param name="instance">The instance implements the interface.</param>
+            <param name="interfaceType">Interface will be resolved</param>
+            <param name="name">A name to register named instance, otherwise null.</param>
+            <param name="dispose">Whether the instance should be disposed on container dispose, otherwise <c>false</c>.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="instance"/> is null.</exception>
+            <exception cref="T:Reqnroll.BoDi.ObjectContainerException">If there was already a resolve for the <paramref name="interfaceType"/>.</exception>
+            <remarks>
+                <para>Previous registrations can be overridden before the first resolution for the <paramref name="interfaceType"/>.</para>
+                <para>The instance will be registered in the object pool, so if a <see cref="M:Reqnroll.BoDi.IObjectContainer.Resolve``1"/> (for another interface) would require an instance of the dynamic type of the <paramref name="instance"/>, the <paramref name="instance"/> will be returned.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{Reqnroll.BoDi.IObjectContainer,``0},System.String)">
+            <summary>
+            Registers an instance produced by <paramref name="factoryDelegate"/>. The delegate will be called only once and the instance it returned will be returned in each resolution.
+            </summary>
+            <typeparam name="TInterface">Interface to register as.</typeparam>
+            <param name="factoryDelegate">The function to run to obtain the instance.</param>
+            <param name="name">A name to resolve named instance, otherwise null.</param>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.RegisterFactoryAs``1(System.Func{``0},System.String)">
+            <summary>
+            Registers an instance produced by <paramref name="factoryDelegate"/>. The delegate will be called only once and the instance it returned will be returned in each resolution.
+            </summary>
+            <typeparam name="TInterface">Interface to register as.</typeparam>
+            <param name="factoryDelegate">The function to run to obtain the instance.</param>
+            <param name="name">A name to resolve named instance, otherwise null.</param>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.Resolve``1">
+            <summary>
+            Resolves an implementation object for an interface or type.
+            </summary>
+            <typeparam name="T">The interface or type.</typeparam>
+            <returns>An object implementing <typeparamref name="T"/>.</returns>
+            <remarks>
+                <para>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.Resolve``1(System.String)">
+            <summary>
+            Resolves an implementation object for an interface or type.
+            </summary>
+            <param name="name">A name to resolve named instance, otherwise null.</param>
+            <typeparam name="T">The interface or type.</typeparam>
+            <returns>An object implementing <typeparamref name="T"/>.</returns>
+            <remarks>
+                <para>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.Resolve(System.Type,System.String)">
+            <summary>
+            Resolves an implementation object for an interface or type.
+            </summary>
+            <param name="typeToResolve">The interface or type.</param>
+            <param name="name">A name to resolve named instance, otherwise null.</param>
+            <returns>An object implementing <paramref name="typeToResolve"/>.</returns>
+            <remarks>
+                <para>The container pools the objects, so if the interface is resolved twice or the same type is registered for multiple interfaces, a single instance is created and returned.</para>
+            </remarks>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.ResolveAll``1">
+            <summary>
+            Resolves all implementations of an interface or type.
+            </summary>
+            <typeparam name="T">The interface or type.</typeparam>
+            <returns>An object implementing <typeparamref name="T"/>.</returns>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.IsRegistered``1(System.String)">
+            <summary>
+            Determines whether the interface or type is registered in the container, optionally with the specified name.
+            </summary>
+            <typeparam name="T">The interface or type.</typeparam>
+            <param name="name">The name or <c>null</c>.</param>
+            <returns><c>true</c> if the interface or type is registered; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Reqnroll.BoDi.IObjectContainer.IsRegistered(System.Type,System.String)">
+            <summary>
+            Determines whether the interface or type is registered in the container, optionally with the specified name.
+            </summary>
+            <param name="type">The interface or type.</param>
+            <param name="name">The name.</param>
+            <returns><c>true</c> if the interface or type is registered; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Reqnroll.BoDi.IStrategyRegistration.InstancePerDependency">
+            <summary>
+            Changes resolving strategy to a new instance per each dependency.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Reqnroll.BoDi.IStrategyRegistration.InstancePerContext">
+            <summary>
+            Changes resolving strategy to a single instance per object container. This strategy is a default behaviour. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Reqnroll.BoDi.ObjectContainer.ResolutionList">
+            <summary>
+            A very simple immutable linked list of <see cref="T:System.Type"/>.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.BoDi.ObjectContainer.ConcurrentObjectResolutionTimeout">
+            <summary>
+            Sets the timeout for thread-safe object resolution. By default, it uses the value of <see cref="P:Reqnroll.BoDi.ObjectContainer.DefaultConcurrentObjectResolutionTimeout"/> that is initialized to 1 second. Setting it to <see cref="F:System.TimeSpan.Zero"/> disables thread-safe resolution.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.BoDi.ObjectContainer.IsRegistered``1(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.BoDi.ObjectContainer.IsRegistered(System.Type,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Reqnroll.Configuration.JsonConfig.CustomTimeSpanConverter">
+            <summary>
+            Custom <see cref="T:System.TimeSpan"/> converter to stay compatible with old json format/parser
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.StepDefinitionSkeletonStyle">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.BindingCultureElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.Dependency">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.GeneratorElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.JsonConfig">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.LanguageElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.RuntimeElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.StepAssemblyElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.TraceElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.MissingOrPendingStepsOutcome">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.ObsoleteBehavior">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.ListDependency">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.ListStepAssemblyElement">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.ListString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.TimeSpan">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Reqnroll.Configuration.JsonConfig.JsonConfigurationSourceGenerator.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Reqnroll.Configuration.ObsoleteBehavior">
+            <summary>
+            Describes possibilities what to do when a test is marked with <see cref="T:System.ObsoleteAttribute"/>
+            The default is <see cref="F:Reqnroll.Configuration.ObsoleteBehavior.Warn"/>
+            </summary>
+        </member>
+        <member name="T:Reqnroll.DataTable">
+            <summary>
+            Represents a Gherkin Data Table.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.EnvironmentAccess.BuildMetadataProvider">
+            <summary>
+            Provides build metadata information from various CI/CD environments by reading their specific environment variables.
+            Supports multiple build servers including Azure Pipelines, TeamCity, Jenkins, GitHub Actions, GitLab CI, and others.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.#ctor(Reqnroll.EnvironmentAccess.IEnvironmentInfoProvider,Reqnroll.EnvironmentAccess.IEnvironmentWrapper)">
+            <summary>
+            Provides build metadata information from various CI/CD environments by reading their specific environment variables.
+            Supports multiple build servers including Azure Pipelines, TeamCity, Jenkins, GitHub Actions, GitLab CI, and others.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetVariableOrUnknown(System.String)">
+            <summary>
+            Retrieves the value of an environment variable safely.
+            </summary>
+            <param name="variable">The name of the environment variable to retrieve.</param>
+            <returns>The value of the environment variable if it exists and can be accessed; otherwise, <c>null</c>.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetBuildMetadata">
+            <summary>
+            Retrieves build metadata from the current CI/CD environment by detecting the build server type
+            and extracting relevant information from environment variables.
+            </summary>
+            <returns>
+            A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object containing build information such as build URL, number, repository details,
+            revision, branch, and tag information. Returns <c>null</c> if the build server is not recognized or supported.
+            </returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetAzurePipelinesMetadata">
+            <summary>
+            Extracts build metadata from Azure Pipelines environment variables.
+            Handles special tag extraction from BUILD_SOURCEBRANCH when it contains refs/tags/ prefix.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Azure Pipelines-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetTeamCityMetadata">
+            <summary>
+            Extracts build metadata from TeamCity environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with TeamCity-specific build information.</returns>
+            <seealso href="https://www.jetbrains.com/help/teamcity/predefined-build-parameters.html">TeamCity Predefined Build Parameters</seealso>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetJenkinsMetadata">
+            <summary>
+            Extracts build metadata from Jenkins environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Jenkins-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetGitHubActionsMetadata">
+            <summary>
+            Extracts build metadata from GitHub Actions environment variables.
+            Constructs build URL and remote URL from GitHub-specific variables and handles branch/tag detection.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with GitHub Actions-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetGitLabMetadata">
+            <summary>
+            Extracts build metadata from GitLab CI environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with GitLab CI-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetAwsCodeBuildMetadata">
+            <summary>
+            Extracts build metadata from AWS CodeBuild environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with AWS CodeBuild-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetTravisMetadata">
+            <summary>
+            Extracts build metadata from Travis CI environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Travis CI-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetAppVeyorMetadata">
+            <summary>
+            Extracts build metadata from AppVeyor environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with AppVeyor-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetBitbucketMetadata">
+            <summary>
+            Extracts build metadata from Bitbucket Pipelines environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Bitbucket Pipelines-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetBambooMetadata">
+            <summary>
+            Extracts build metadata from Atlassian Bamboo environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Bamboo-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetCircleCiMetadata">
+            <summary>
+            Extracts build metadata from CircleCI environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with CircleCI-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetGoCdMetadata">
+            <summary>
+            Extracts build metadata from GoCD environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with GoCD-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetBuddyMetadata">
+            <summary>
+            Extracts build metadata from Buddy environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Buddy-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetNevercodeMetadata">
+            <summary>
+            Extracts build metadata from Nevercode environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Nevercode-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetSemaphoreMetadata">
+            <summary>
+            Extracts build metadata from Semaphore environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Semaphore-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetBrowserStackMetadata">
+            <summary>
+            Extracts build metadata from BrowserStack environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with BrowserStack-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetCodefreshMetadata">
+            <summary>
+            Extracts build metadata from Codefresh environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Codefresh-specific build information.</returns>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.BuildMetadataProvider.GetOctopusDeployMetadata">
+            <summary>
+            Extracts build metadata from Octopus Deploy environment variables.
+            </summary>
+            <returns>A <see cref="T:Reqnroll.EnvironmentAccess.BuildMetadata"/> object with Octopus Deploy-specific build information.</returns>
+        </member>
+        <member name="T:Reqnroll.EnvironmentAccess.BuildServerNames">
+            <summary>
+            Contains constant values for build server names used across environment detection and metadata extraction.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.AzurePipelines">
+            <summary>
+            Microsoft Azure Pipelines (formerly Visual Studio Team Services).
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.TeamCity">
+            <summary>
+            JetBrains TeamCity continuous integration server.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Jenkins">
+            <summary>
+            Jenkins automation server.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.GitHubActions">
+            <summary>
+            GitHub Actions CI/CD platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.GitLabCI">
+            <summary>
+            GitLab CI/CD platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.AwsCodeBuild">
+            <summary>
+            Amazon Web Services CodeBuild.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.TravisCI">
+            <summary>
+            Travis CI continuous integration service.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.AppVeyor">
+            <summary>
+            AppVeyor continuous integration service.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.BitbucketPipelines">
+            <summary>
+            Bitbucket Pipelines CI/CD service.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Bamboo">
+            <summary>
+            Atlassian Bamboo continuous integration server.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.CircleCI">
+            <summary>
+            CircleCI continuous integration platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.GoCD">
+            <summary>
+            GoCD continuous delivery server.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Buddy">
+            <summary>
+            Buddy CI/CD platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Nevercode">
+            <summary>
+            Nevercode mobile CI/CD platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Semaphore">
+            <summary>
+            Semaphore continuous integration platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.BrowserStack">
+            <summary>
+            BrowserStack testing platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.Codefresh">
+            <summary>
+            Codefresh CI/CD platform.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.OctopusDeploy">
+            <summary>
+            Octopus Deploy deployment automation server.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.EnvironmentAccess.BuildServerNames.CodeShip">
+            <summary>
+            CodeShip continuous integration service.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.EnvironmentAccess.EnvironmentInfoProvider">
+            <summary>
+            This provides an abstraction for obtaining platform and runtime information. Used by Analytics and Cucumber Messages
+            </summary>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.EnvironmentWrapper.GetEnvironmentVariables(System.String,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Reqnroll.EnvironmentAccess.IEnvironmentOptions">
+            <summary>
+            Well-known settings that are provided by the environment through an <see cref="T:Reqnroll.EnvironmentAccess.IEnvironmentWrapper"/> implementation.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.EnvironmentAccess.IEnvironmentWrapper.GetEnvironmentVariables(System.String,System.Boolean)">
+            <summary>
+            Retrieves all environment variables that start with the specified prefix,
+            optionally removing the prefix from the keys in the returned dictionary.
+            </summary>
+            <param name="prefix"></param>
+            <param name="trimPrefix">If true, the prefix will be removed from the keys in the returned dictionary.</param>
+        </member>
+        <member name="T:Reqnroll.EnvironmentAccess.VariableSubstitutionService">
+            <summary>
+            Provides functionality to resolve template strings by substituting placeholders with environment variables or
+            built-in values.
+            </summary>
+            <remarks>This service supports replacing placeholders in the format "{env:VARIABLE_NAME}" with the
+            corresponding environment variable value, and "{timestamp}" with the current date and time,
+            or one of {buildNumber}, {revision}, {branch}, or {tag} with the corresponding information from BuildMetadata. 
+            Placeholders that do not match a known variable or environment variable are left unchanged. 
+            This class is typically used to dynamically generate strings such as file paths or configuration values that depend on runtime context.
+            </remarks>
+        </member>
+        <member name="T:Reqnroll.AmbiguousBindingException">
+            <summary>
+            This subclass is added for support of Cucumber Messages.
+            When emitting the Cucumber Message that describes an ambiguous matching situation, the Message will contain the list of possible matches.
+            We use this subclass of BindingException to convey that information.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.ColumnCouldNotBeBoundException.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="M:Reqnroll.ColumnCouldNotBeBoundException.#ctor(System.Collections.Generic.IList{System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Reqnroll.ColumnCouldNotBeBoundException.#ctor(System.String,System.Collections.Generic.IList{System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Reqnroll.ColumnCouldNotBeBoundException.#ctor(System.String,System.Exception,System.Collections.Generic.IList{System.String})">
+            <inheritdoc />
+        </member>
+        <member name="T:Reqnroll.ErrorHandling.PendingScenarioException">
+            <summary>
+            This exception is thrown by Reqnroll test execution framework plugins to indicate a pending scenario if there is no dedicated support for pending errors in the test execution framework for that.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Events.TestThreadExecutionEventPublisher.PublishEvent(Reqnroll.Events.IExecutionEvent)">
+            <summary>
+            Publishes the specified execution event to the appropriate handlers or subscribers.
+            </summary>
+            <remarks>This method blocks the calling thread until the event is published asynchronously.</remarks>
+            <param name="executionEvent">The execution event to be published. Cannot be <see langword="null"/>.</param>
+        </member>
+        <member name="F:Reqnroll.ExpressionType.Unspecified">
+            <summary>
+            Unspecified, the expression is a Regular expression (Regex) or a Cucumber expression. The expression type will be determined at runtime based on the expression string.
+            </summary>
+        </member>
+        <member name="F:Reqnroll.ExpressionType.CucumberExpression">
+            <summary>
+            The expression is a Cucumber Expression
+            </summary>
+        </member>
+        <member name="F:Reqnroll.ExpressionType.RegularExpression">
+            <summary>
+            The expression is a Regular expression (Regex)
+            </summary>
+        </member>
+        <member name="P:Reqnroll.FeatureInfo.FeatureCucumberMessages">
+            <summary>
+            This property holds the cucumber messages at the feature level created by the test class generator; populated when the FeatureStartedEvent is fired. Used internally.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.Configuration.FormattersConfigurationProvider">
+            <summary>
+            This class is responsible for determining the configuration of the Cucumber Messages subsystem.
+            It is wired into the object container as a singleton and is a dependency of the PubSub classes.
+            
+            When any consumer of this class asks for one of the properties of <see cref="T:Reqnroll.Formatters.Configuration.IFormattersConfigurationProvider"/>,
+            the class will resolve the configuration (only once).
+            
+            One or more profiles may be read from the configuration file (<see cref="T:Reqnroll.Formatters.Configuration.FileBasedConfigurationResolver"/>)
+            then environment variable overrides are applied (first <see cref="T:Reqnroll.Formatters.Configuration.JsonEnvironmentConfigurationResolver"/>, then <see cref="T:Reqnroll.Formatters.Configuration.KeyValueEnvironmentConfigurationResolver"/>).
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.Configuration.FormattersConfigurationProvider.ResolveTemplatePlaceholders(System.String)">
+            <summary>
+            Replaces all recognized placeholders in the specified template string with their corresponding values.
+            </summary>
+            <param name="template">The template string containing placeholders to be resolved. Placeholders should be in the expected format for
+            variable substitution.</param>
+            <returns>A string with all recognized placeholders in the template replaced by their resolved values. If no placeholders
+            are found, returns the original template string.</returns>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.AttachmentTracker">
+            <summary>
+            Tracks the addition of a particular attachment. The <see cref="P:Reqnroll.Formatters.ExecutionTracking.AttachmentTracker.TestCaseStartedId"/> and <see cref="P:Reqnroll.Formatters.ExecutionTracking.AttachmentTracker.TestCaseStepId"/> are optional,
+            they are only filled out if the attachment is added in a scope of a scenario or step/hook execution.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.FeatureExecutionTracker">
+            <summary>
+            FeatureExecutionTracker is responsible for tracking the execution of a Feature.
+            There will be one instance of this class per gherkin Feature.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.HookStepExecutionTracker">
+            <summary>
+            This class is used to track execution of hook steps.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.HookStepExecutionTracker.#ctor(Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker,Reqnroll.Formatters.PayloadProcessing.Cucumber.ICucumberMessageFactory,Reqnroll.Formatters.PubSub.IMessagePublisher)">
+            <summary>
+            This class is used to track execution of hook steps.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.HookStepTracker">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "hook step", that is a hook with binding information.
+            The hook step needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.HookStepTracker.#ctor(System.String,System.String)">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "hook step", that is a hook with binding information.
+            The hook step needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.OutputMessageTracker">
+            <summary>
+            Tracks the logging of an output message. The <see cref="P:Reqnroll.Formatters.ExecutionTracking.OutputMessageTracker.TestCaseStartedId"/> and <see cref="P:Reqnroll.Formatters.ExecutionTracking.OutputMessageTracker.TestCaseStepId"/> are optional,
+            they are only filled out if the attachment is added in a scope of a scenario or step/hook execution.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.PickleExecutionTracker">
+            <summary>
+            Tracks the execution lifecycle and state of a single Gherkin scenario (Pickle/TestCase).
+            </summary>
+            <remarks>
+            <para>
+            <b>Responsibilities:</b>
+            <list type="bullet">
+              <item>Maintains scenario-level and feature-level execution data for a single test case.</item>
+              <item>Records each execution attempt (including retries) as a <see cref="T:Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker"/>.</item>
+              <item>Processes and responds to all relevant execution events (scenario, step, hook, attachment, output).</item>
+              <item>Generates Cucumber messages.</item>
+              <item>Tracks step definitions and their mapping to execution steps within the scenario.</item>
+            </list>
+            </para>
+            <para>
+            There is one <c>PickleExecutionTracker</c> instance per scenario (Pickle) in a feature.
+            </para>
+            </remarks>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.PickleExecutionTracker.OrderFixingMessagePublisher">
+            <summary>
+            Ensures correct message ordering for Cucumber messages by buffering messages until a <see cref="T:Io.Cucumber.Messages.Types.TestCase"/> message is published.
+            <para>
+            <b>Responsibilities:</b>
+            <list type="bullet">
+              <item>Buffers all messages until a <see cref="T:Io.Cucumber.Messages.Types.TestCase"/> message is encountered.</item>
+              <item>Flushes buffered messages immediately after the <see cref="T:Io.Cucumber.Messages.Types.TestCase"/> message is published.</item>
+              <item>Passes through all subsequent messages directly to the underlying publisher.</item>
+            </list>
+            </para>
+            <para>
+            This is necessary because the <see cref="T:Io.Cucumber.Messages.Types.TestCase"/> message has IDs that are referenced in Pickle Execution messages.
+            </para>
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.PickleExecutionTracker.#ctor(System.String,System.String,System.String,System.Boolean,Gherkin.CucumberMessages.IIdGenerator,System.Collections.Generic.IReadOnlyDictionary{Reqnroll.Bindings.IBinding,System.String},System.DateTime,Reqnroll.Formatters.PayloadProcessing.Cucumber.ICucumberMessageFactory,Reqnroll.Formatters.ExecutionTracking.ITestCaseExecutionTrackerFactory,Reqnroll.Formatters.PubSub.IMessagePublisher)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Reqnroll.Formatters.ExecutionTracking.PickleExecutionTracker"/> class for a specific scenario (Pickle).
+            </summary>
+            <param name="pickleId">The unique identifier of the scenario (Pickle) being tracked.</param>
+            <param name="testRunStartedId">The identifier of the test run this scenario belongs to.</param>
+            <param name="featureName">The name of the feature containing this scenario.</param>
+            <param name="enabled">Indicates whether this test case is enabled for execution.</param>
+            <param name="idGenerator"> The ID generator used to create unique IDs for test case messages and related entities.</param>
+            <param name="stepDefinitionsByMethod">
+            A thread-safe dictionary mapping step definition patterns to their unique IDs, 
+            used to resolve step bindings during execution.
+            </param>
+            <param name="instant">The timestamp marking when the test case started execution.</param>
+            <param name="messageFactory">The factory responsible for creating Cucumber message objects.</param>
+            <param name="testCaseExecutionTrackerFactory">The factory for creating TestExecutionTracker objects.</param>
+            <param name="publisher">The service that publishes Messages to Formatters</param>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.StepExecutionTrackerBase">
+            <summary>
+            Base class for tracking execution of steps (test steps and hooks)
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.StepExecutionTrackerBase.#ctor(Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker,Reqnroll.Formatters.PayloadProcessing.Cucumber.ICucumberMessageFactory,Reqnroll.Formatters.PubSub.IMessagePublisher)">
+            <summary>
+            Base class for tracking execution of steps (test steps and hooks)
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker">
+            <summary>
+            Track the execution of a single TestCase (i.e. an execution of a Pickle)
+            There will be multiple of these for a given TestCase if it is retried.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker.TestCaseStartedId">
+            <summary>
+            The ID of this particular execution of this Test Case
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.TestCaseTracker">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "test case", that is a pickle with binding information,
+            so it captures for every step and hook the related step definitions.
+            The test case needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.TestCaseTracker.#ctor(System.String,System.String,Reqnroll.Formatters.ExecutionTracking.IPickleExecutionTracker)">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "test case", that is a pickle with binding information,
+            so it captures for every step and hook the related step definitions.
+            The test case needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.TestRunHookExecutionTracker">
+            <summary>
+            Captures information about TestRun Hooks (Before/After TestRun and Before/After Feature)
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.TestRunHookExecutionTracker.#ctor(System.String,System.String,System.String,Reqnroll.Formatters.PayloadProcessing.Cucumber.ICucumberMessageFactory,Reqnroll.Formatters.PubSub.IMessagePublisher)">
+            <summary>
+            Captures information about TestRun Hooks (Before/After TestRun and Before/After Feature)
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.TestStepExecutionTracker">
+            <summary>
+            This class is used to track the execution of test steps.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.TestStepExecutionTracker.#ctor(Reqnroll.Formatters.ExecutionTracking.TestCaseExecutionTracker,Reqnroll.Formatters.PayloadProcessing.Cucumber.ICucumberMessageFactory,Reqnroll.Formatters.PubSub.IMessagePublisher,Gherkin.CucumberMessages.IIdGenerator)">
+            <summary>
+            This class is used to track the execution of test steps.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.ExecutionTracking.TestStepTracker">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "test case step", that is a step with binding information.
+            The test case step needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.ExecutionTracking.TestStepTracker.#ctor(System.String,System.String,Reqnroll.Formatters.ExecutionTracking.TestCaseTracker)">
+            <summary>
+            Tracks the information needed for a Cucumber Messages "test case step", that is a step with binding information.
+            The test case step needs to be built upon the first execution attempt of a pickle.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.FileWritingFormatterBase">
+            <summary>
+            Formatter plugin base that receives Cucumber messages and let the implementor process them and generate a single output file.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.Html.HtmlFormatter">
+            <summary>
+            Produces an HTML report file based on https://github.com/cucumber/html-formatter/ and https://github.com/cucumber/react-components.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.Message.MessageFormatter">
+            <summary>
+            Produces a Cucumber Messages output (.ndjson) file.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PayloadProcessing.Cucumber.CucumberMessageFactory">
+            <summary>
+            This class provides functions to convert execution level detail into Cucumber message elements.
+            These are typically called after execution is completed for a Feature.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PayloadProcessing.Cucumber.CucumberMessageVisitorBase">
+            <summary>
+            Base implementation of a visitor pattern over the Cucumber Message types
+            (consumer of this, for now, is within the Test class for Messages; but provided here for future use)
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PayloadProcessing.Cucumber.EnvelopeExtensions">
+            <summary>
+            Convenience methods to help work with Message Envelopes
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PayloadProcessing.NdjsonSerializer">
+            <summary>
+            Uses a correctly configured <see cref="T:System.Text.Json.JsonSerializer"/> that provides compatible JSON format for the Cucumber Messages standard.
+            These options should work with System.Text.Json v6 or above.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PubSub.BindingMessagesGenerator">
+            <summary>
+            This class is used at test start-up to iterate through the <see cref="T:Reqnroll.Bindings.IBindingRegistry"/> to generate messages for each of the 
+            <see cref="T:Reqnroll.Bindings.IStepArgumentTransformationBinding"/>, <see cref="T:Reqnroll.Bindings.IStepDefinitionBinding"/> and <see cref="T:Reqnroll.Bindings.IHookBinding"/>.
+            The binding items found are also cached for use during the processing of test cases.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PubSub.CucumberMessageBroker">
+            <summary>
+            Cucumber Message implementation is a simple Pub/Sub implementation.
+            This broker mediates between the (singleton) CucumberMessagePublisher and (one or more) Formatters.
+            The pub/sub mechanism is considered to be turned "OFF" if no sinks are registered or if none of them are configured.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.PubSub.CucumberMessagePublisher">
+            <summary>
+            This class is responsible for publishing Cucumber Messages to the <see cref="T:Reqnroll.Formatters.PubSub.CucumberMessageBroker"/>.
+            It uses the set of <see cref="T:Reqnroll.Events.IExecutionEvent"/> to track overall execution of features and steps and drive generation of messages.
+            It uses the <see cref="T:Reqnroll.Plugins.IRuntimePlugin"/> interface to force the runtime to load it during startup (although it is not an external plugin per se).
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.PubSub.CucumberMessagePublisher.GetFeatureExecutionTracker``1(``0)">
+            <summary>
+            Helper method used by the event handlers to retrieve the feature execution tracker for the given event.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Formatters.PubSub.CucumberMessagePublisher.GetFeatureId(Reqnroll.Events.IExecutionEvent)">
+            <summary>
+            Helper method to extract feature name from different event types.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages">
+            <summary>
+            This class is used at Code Generation time to provide serialized representations of the Source, GherkinDocument, and Pickles 
+            to be used at runtime.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Formatters.RuntimeSupport.PickleJar">
+            <summary>
+            This class is used at runtime to provide the appropriate PickleId and PickleStepId to the steps.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.HookAttribute.Order">
+            <summary>
+            The order in which the hook will be executed. Lower numbers go first.
+            Orders are only applicable for hooks of the same type.
+            Hooks with the same priority will have non-deterministic execution order.
+            Default value is 10,000.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.BeforeTestRunAttribute.#ctor">
+            <summary>
+            Constructs a new BeforeTestRunAttribute with a default Order of 10000
+            </summary>
+        </member>
+        <member name="T:Reqnroll.BeforeScenarioAttribute">
+            <summary>
+            Specifies a hook to be executed before each scenario.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.BeforeAttribute">
+            <summary>
+            Specifies a hook to be executed before each scenario. This attribute is a synonym to <see cref="T:Reqnroll.BeforeScenarioAttribute"/>.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.AfterScenarioAttribute">
+            <summary>
+            Specifies a hook to be executed after each scenario.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.AfterAttribute">
+            <summary>
+            Specifies a hook to be executed after each scenario. This attribute is a synonym to <see cref="T:Reqnroll.AfterScenarioAttribute"/>.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Infrastructure.ContextManager.StackedInternalContextManager`1">
+            <summary>
+            Implementation of internal context manager which keeps a stack of contexts, rather than a single one.
+            This allows the contexts to be used when a new context is created before the previous context has been completed
+            which is what happens when a step calls other steps. This means that the step contexts will be reported
+            correctly even when there is a nesting of steps calling steps.
+            </summary>
+            <typeparam name="TContext">A type derived from ReqnrollContext, which needs to be managed  in a way</typeparam>
+        </member>
+        <member name="M:Reqnroll.Infrastructure.ContextManager.StackedInternalContextManager`1.#ctor(Reqnroll.Tracing.ITestTracer)">
+            <summary>
+            Implementation of internal context manager which keeps a stack of contexts, rather than a single one.
+            This allows the contexts to be used when a new context is created before the previous context has been completed
+            which is what happens when a step calls other steps. This means that the step contexts will be reported
+            correctly even when there is a nesting of steps calling steps.
+            </summary>
+            <typeparam name="TContext">A type derived from ReqnrollContext, which needs to be managed  in a way</typeparam>
+        </member>
+        <member name="P:Reqnroll.Infrastructure.ContextManager.CurrentTopLevelStepDefinitionType">
+            <summary>
+            Holds the StepDefinitionType of the last step that was executed from the actual feature file, excluding the types of the steps that were executed during the calling of a step
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Infrastructure.ITestObjectResolver">
+            <summary>
+            Resolves user created test objects from different scopes (scenario, feature, test thread).
+            </summary>
+            <remarks>
+            <para>Notes to the implementors:</para>
+            <para>
+            The test objects might be dependent on particular Reqnroll infrastructure, therefore the implemented
+            resolution logic should support resolving the following objects (from the provided Reqnroll container):
+            <see cref="T:Reqnroll.ScenarioContext"/>, <see cref="T:Reqnroll.FeatureContext"/>, <see cref="T:Reqnroll.TestThreadContext"/> and
+            <see cref="T:Reqnroll.BoDi.IObjectContainer"/> (to be able to resolve any other Reqnroll infrastucture). So basically
+            the resolution of these classes has to be forwarded to the original container.
+            </para>
+            <para>
+            If the resolved (top level) object implements <see cref="T:Reqnroll.Infrastructure.IContainerDependentObject"/>, the method
+            <see cref="M:Reqnroll.Infrastructure.IContainerDependentObject.SetObjectContainer(Reqnroll.BoDi.IObjectContainer)"/> must be called, passing in the original
+            Reqnroll container. (The <see cref="T:Reqnroll.Steps"/> base class needs this.)
+            </para>
+            </remarks>
+        </member>
+        <member name="T:Reqnroll.Infrastructure.ReqnrollOutputHelper">
+            <summary>
+            Provides methods for writing test output and adding attachments during test execution.
+            </summary>
+            <remarks>This class is designed to facilitate the logging of test output and the management of
+            test-related attachments. It integrates with the test execution event _publisher, trace listener, and attachment
+            handler to ensure that output and attachments are properly handled and recorded.
+            
+            This class needs further refactoring to make it asynchronous so that the TestThreadExecutionEventPublisher can be
+            invoked asynchronously.
+            </remarks>
+        </member>
+        <member name="P:Reqnroll.ITestRunner.TestWorkerId">
+            <summary>
+            The ID of the parallel test worker processing the current scenario.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Plugins.DotNetCorePluginAssemblyLoader">
+            <summary>
+            This class is used for .NET only (not .NET Framework)
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Plugins.DotNetCorePluginAssemblyResolver">
+            <summary>
+            This class is used for .NET (not .NET Framework) based frameworks only. See <see cref="T:Reqnroll.PlatformCompatibility.PlatformHelper"/>.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Plugins.DotNetCorePluginAssemblyResolver.#ctor(System.String)">
+            <summary>
+            This class is used for .NET (not .NET Framework) based frameworks only. See <see cref="T:Reqnroll.PlatformCompatibility.PlatformHelper"/>.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyLoader">
+            <summary>
+            This class is used for .NET Framework v4.* only. For .NET +6 <see cref="T:Reqnroll.Plugins.DotNetCorePluginAssemblyLoader"/> is used instead. See <see cref="T:Reqnroll.PlatformCompatibility.PlatformHelper"/>.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver">
+            <summary>
+            This class is used for .NET Framework 4.* only. See <see cref="T:Reqnroll.PlatformCompatibility.PlatformHelper"/>.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.Plugins.DotNetFrameworkPluginAssemblyResolver.#ctor(System.String)">
+            <summary>
+            This class is used for .NET Framework 4.* only. See <see cref="T:Reqnroll.PlatformCompatibility.PlatformHelper"/>.
+            </summary>
+        </member>
+        <member name="E:Reqnroll.Plugins.RuntimePluginEvents.CustomizeScenarioDependencies">
+            <summary>
+            Use this event to customize the object container which will subsequently be provided to each Scenario.
+            </summary>
+            <remarks>
+            <para>
+            Note that you may not resolve the <see cref="T:Reqnroll.ScenarioContext"/> from the container exposed by this event, attempts
+            to do so will raise <see cref="T:Reqnroll.BoDi.ObjectContainerException"/>. 
+            This event is invoked before the scenario context is ready to be resolved.
+            If you would like information about the Scenario, please resolve <see cref="T:Reqnroll.ScenarioInfo"/> instead.
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Reqnroll.ReqnrollContext.IsDisposed">
+            <summary>
+            Used to verify disposal of the context in tests.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.RuleInfo">
+            <summary>
+            Contains information about the rule currently being executed.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.RuleInfo.Title">
+            <summary>
+            The title (name) of the rule.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.RuleInfo.Description">
+            <summary>
+            The description of the rule.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.RuleInfo.Tags">
+            <summary>
+            Direct tags of the rule.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.ScenarioContext.GetBindingInstance(System.Type)">
+            <summary>
+            Called by Reqnroll infrastructure when an instance of a binding class is needed.
+            </summary>
+            <param name="bindingType">The type of the binding class.</param>
+            <returns>The binding class instance</returns>
+            <remarks>
+            The binding classes are the classes with the [Binding] attribute, that might
+            contain step definitions, hooks or step argument transformations. The method
+            is called when any binding method needs to be called.
+            </remarks>
+        </member>
+        <member name="T:Reqnroll.ScenarioInfo">
+            <summary>
+            Contains information about the scenario currently being executed.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.Tags">
+            <summary>
+            Direct tags of the scenario, including tags of the examples block.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.CombinedTags">
+            <summary>
+            Contains direct tags and tags inherited from the feature and the rule.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.Arguments">
+            <summary>
+            The arguments used to execute a scenario outline example.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.Title">
+            <summary>
+            The title (name) of the scenario.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.Description">
+            <summary>
+            The description of the scenario.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.PickleIdIndex">
+            <summary>
+            The PickleIdIndex of the test scenario when exported as a Cucumber Messages "pickle". Used internally.
+            The index is the sequential number of the pickle in the list of pickles generated from the feature file.
+            The index is "replaced" by real unique identifiers (<see cref="P:Reqnroll.ScenarioInfo.PickleId"/>) during <see cref="T:Reqnroll.Events.ScenarioStartedEvent"/> event.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.PickleStepSequence">
+            <summary>
+            The list of step PickleIds in the step sequence for this test. Used internally at runtime.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.ScenarioInfo.PickleId">
+            <summary>
+            This holds the unique identifier for the test ("pickle") represented by this scenario info. Used internally at runtime.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.ScopeAttribute">
+            <summary>
+            Restricts the binding attributes (step definition, hook, etc.) to be applied only in a specific scope.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.StepArgumentTransformationAttribute">
+            <summary>
+            Specifies the method to be used as a custom step definition parameter conversion.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.StepArgumentTransformationAttribute.Regex">
+            <summary>
+            The regular expression that have to match the step argument. The entire argument is passed to the method if omitted.
+            Please note that Cucumber Expressions are not supported for step argument transformations.
+            </summary>
+        </member>
+        <member name="P:Reqnroll.StepArgumentTransformationAttribute.Name">
+            <summary>
+            The custom parameter type name to be used in Cucumber Expressions
+            </summary>
+        </member>
+        <member name="P:Reqnroll.StepArgumentTransformationAttribute.Order">
+            <summary>
+            Specifies the deterministic order for step argument transformations. Lower numbers have higher priority.
+            Default value is <see cref="F:Reqnroll.StepArgumentTransformationAttribute.DefaultOrder">10000</see>.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.StepArgumentTransformationAttribute.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a Step Argument Transformation
+            </summary>
+            <param name="regex">The regular expression that must match the step argument. The entire argument is passed to the method if omitted. Please note that Cucumber Expressions are not supported for step argument transformations.</param>
+            <param name="order">Specifies the deterministic order for step argument transformations. Lower numbers have higher priority.</param>
+        </member>
+        <member name="P:Reqnroll.StepInfo.PickleStepId">
+            <summary>
+            The unique identifier for the current step execution. Used internally at runtime.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.Table">
+            <summary>
+            An alias for the <see cref="T:Reqnroll.DataTable"/> class for backwards compatibility. 
+            </summary>
+        </member>
+        <member name="T:Reqnroll.TagHelper">
+            <summary>
+            Provides helper methods around tags.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.TagHelper.ContainsIgnoreTag(System.String[])">
+            <summary>
+            Checks whether the supplied tags contain the ignore tag
+            </summary>
+            <param name="tags">The tags to check.</param>
+            <returns>A boolean that indicates whether or not the ignore tag is present.</returns>
+        </member>
+        <member name="M:Reqnroll.TagHelper.CombineTags(System.String[],System.String[])">
+            <summary>
+            Combines feature tags and rule tags in a way that both can be null or empty. Duplicates are removed.
+            </summary>
+        </member>
+        <member name="T:Reqnroll.TestRunnerManager.TestWorkerContainerHint">
+            <summary>
+            Contains hints to for the test runner manager to choose the test runners from multiple available
+            ones in a more optimal way. Our goal is to keep the test runner "sticky" to the test framework workers
+            so that no unnecessary feature context switches occur.
+            Currently, we remember the feature info and the managed thread ID to help this.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.TestRunnerManager.TestWorkerContainerHint.#ctor(Reqnroll.FeatureInfo,System.Nullable{System.Int32})">
+            <summary>
+            Contains hints to for the test runner manager to choose the test runners from multiple available
+            ones in a more optimal way. Our goal is to keep the test runner "sticky" to the test framework workers
+            so that no unnecessary feature context switches occur.
+            Currently, we remember the feature info and the managed thread ID to help this.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.TestRunnerManager.TestWorkerContainerHint.GetDistance(Reqnroll.TestRunnerManager.TestWorkerContainerHint,Reqnroll.FeatureInfo)">
+            <summary>
+            Returns information about how optimal the provided hint for the current situation. Smaller number means more optimal.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.TestRunnerManager.GetCallingAssembly(System.String)">
+            <summary>
+            This is a workaround method solving not correctly working Assembly.GetCallingAssembly() when called from async method (due to state machine).
+            </summary>
+        </member>
+        <member name="M:Reqnroll.TestRunnerManager.GetTestRunnerForAssembly(System.Reflection.Assembly,Reqnroll.Infrastructure.IContainerBuilder,Reqnroll.FeatureInfo)">
+            <summary>
+            Provides a test runner for the specified or current assembly with optionally a custom container builder and a feature hint.
+            When a feature hint is provided the test runner manager will attempt to return the same test runner that was used for that
+            feature before. 
+            </summary>
+            <param name="testAssembly">The test assembly. If omitted or invoked with <c>null</c>, the calling assembly is used.</param>
+            <param name="containerBuilder">The container builder to be used to set up Reqnroll dependencies. If omitted or invoked with <c>null</c>, the default container builder is used.</param>
+            <param name="featureHint">If specified, it is used as a hint for the test runner manager to choose the test runner that has been used for the feature before, if possible.</param>
+            <returns>A test runner that can be used to interact with Reqnroll.</returns>
+        </member>
+        <member name="T:Reqnroll.Tracing.IThreadSafeTraceListener">
+            <summary>
+            Marker interface for trace listener that do not need queued execution
+            </summary>
+        </member>
+        <member name="T:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider">
+            <summary>
+            Runtime services provided by the test execution framework.
+            </summary>
+        </member>
+        <member name="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestPending(System.String)">
+            <summary>
+            Forces the test to be pending. When the provider does not support pending tests, this method should throw an <see cref="T:Reqnroll.ErrorHandling.PendingScenarioException"/>.
+            </summary>
+            <param name="message">The message to be included in the test result.</param>
+        </member>
+        <member name="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(System.String)">
+            <summary>
+            Forces the test to be inconclusive. When the provider does not support inconclusive tests it can also delegate to <see cref="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(System.String)"/>.
+            </summary>
+            <param name="message">The message to be included in the test result.</param>
+        </member>
+        <member name="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestIgnore(System.String)">
+            <summary>
+            Forces the test to be ignored. When the provider does not support ignored tests it can also delegate to <see cref="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.TestInconclusive(System.String)"/>.
+            </summary>
+            <param name="message">The message to be included in the test result.</param>
+        </member>
+        <member name="M:Reqnroll.UnitTestProvider.IUnitTestRuntimeProvider.DetectExecutionStatus(System.Exception)">
+            <summary>
+            Detects dynamically skipped or pending tests based on the exception type.
+            Should return <see cref="F:Reqnroll.ScenarioExecutionStatus.Skipped"/>, if the exception represents a skipped tests (e.g. ignored or inconclusive); <see cref="F:Reqnroll.ScenarioExecutionStatus.StepDefinitionPending"/> when the exception represents a pending state and <c>null</c> in all other cases.
+            </summary>
+            <param name="exception">The exception that has been thrown during the step execution.</param>
+            <returns>The detected <see cref="T:Reqnroll.ScenarioExecutionStatus"/> or <c>null</c> in all other cases.</returns>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+            Reserved to be used by the compiler for tracking metadata.
+            This class should not be used by developers in source code.
+            </summary>
+        </member>
+    </members>
+</doc>
